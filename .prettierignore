@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules
+.yarn
+
+# Build output
+dist
+build
+.next
+.cache
+cache
+.contentlayer
+public
+
+# Lock and config files
+package.json
+package-lock.json
+CHANGELOG.md
