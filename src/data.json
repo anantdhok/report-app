@@ -1,0 +1,2547 @@
+{
+  "target": {
+    "id": "b2394eb7-fc11-4056-8e99-d4a4cadc436e",
+    "code": "TGT9960820205",
+    "targetNumber": "9960820205",
+    "fullName": "Akhmal",
+    "aliases": ["Bhai"],
+    "category": ["Recruitment", "Narcotics"],
+    "description": "Operating in Maharashtra",
+    "userDetails": [],
+    "riskPriority": [
+      {
+        "uuid": "",
+        "value": ""
+      }
+    ],
+    "organisations": [],
+    "address": {},
+    "isMarked": false,
+    "createdAt": "2025-10-29T12:24:09.999993Z",
+    "createdBy": "00000000-0000-0000-0000-000000000000",
+    "updatedAt": "2025-10-29T12:31:23.324532Z",
+    "updatedBy": "48f6c767-6ab5-4aa2-ae26-f2aab170ca99",
+    "isActive": true,
+    "fileCount": 15,
+    "criticalFileCount": 12,
+    "filteredFileCount": 15,
+    "filteredCriticalFileCount": 12,
+    "callCount": 0,
+    "criticalCallCount": 0,
+    "smsCount": 0,
+    "criticalSMSCount": 0
+  },
+  "callRecords": [
+    {
+      "id": "0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8",
+      "callDatetime": "2025-10-08T07:10:41Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "5b5fe700-2791-4892-ad53-0bee86e95aa7",
+          "value": "OUTGOING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "The call discusses a security concern regarding agencies exploiting individuals, particularly young people, through online surveys offered in the guise of social media companies. These agencies collect personal information like pictures and location data, potentially using it against the country and its cities. The call also questions the legitimacy and potential harm caused by these agencies' charges and activities, highlighting a failure to connect and respond via the caller's number. The mention of 'Khan' and 'Holi' appears contextually unrelated and likely represents misinterpreted speech-to-text.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-08T07:11:33Z",
+      "callerNumber": "9960820205",
+      "calleeNumber": "9869803646",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.020674Z",
+      "createdBy": "0d32126c-151b-45ed-9a49-3d788ac1b793",
+      "updatedAt": "2025-10-29T12:27:42.607681Z",
+      "updatedBy": "cbe62e72-8afd-4c64-8fef-866207a281f9",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/5f841e47-5c01-4ba9-a0ca-83dbeb2b2611",
+      "fileName": "08102025-124041.27203701.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [],
+      "globalKeywords": [
+        {
+          "phrase": "army",
+          "referencePhrase": "army",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "holi",
+          "referencePhrase": "Holi",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "ORGANIZATION",
+            "words": [
+              {
+                "value": "social media platform companies"
+              },
+              {
+                "value": "army"
+              }
+            ]
+          },
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "Khan"
+              }
+            ]
+          },
+          {
+            "type": "COUNTRY",
+            "words": [
+              {
+                "value": "mulk"
+              }
+            ]
+          },
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "shaharon"
+              }
+            ]
+          },
+          {
+            "type": "EVENTS",
+            "words": [
+              {
+                "value": "Holi"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.555808",
+        "longitude": "73.794663"
+      },
+      "endLocation": {
+        "latitude": "18.555808",
+        "longitude": "73.794663"
+      }
+    },
+    {
+      "id": "14ac15ce-5ea3-4710-bf28-b9388870d98a",
+      "callDatetime": "2025-10-08T07:17:40Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "6aacaec3-6b25-492e-8558-097078417aea",
+          "value": "INCOMING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "The call centers around a warning about enemy intelligence agencies recruiting youth online – particularly through platforms using the name 'Kangla' – to gather sensitive information regarding national plans and infrastructure. The warning emphasizes this activity is a threat to national security and citizens. The remainder of the call consists of disjointed, seemingly unrelated personal conversation regarding travel to Ranchi (specifically, Kapil Store), bicycle repairs, and work schedules, indicating a possible interruption or shift in focus after the initial warning.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-08T07:20:21Z",
+      "callerNumber": "9869803642",
+      "calleeNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.044013Z",
+      "createdBy": "4f128102-79bc-4471-9a10-6efe5506d26e",
+      "updatedAt": "2025-10-29T13:14:42.072473Z",
+      "updatedBy": "5856a3e0-b290-4f65-bc31-f9ad3aeb75b0",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/46fa269a-59ae-4f37-b58b-912f15febf95",
+      "fileName": "08102025-124740.27215606.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [],
+      "globalKeywords": [
+        {
+          "phrase": "stand",
+          "referencePhrase": "stand",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "raat",
+          "referencePhrase": "raat",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "chutti",
+          "referencePhrase": "chuti",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "Ranchi"
+              },
+              {
+                "value": "Fasaad"
+              }
+            ]
+          },
+          {
+            "type": "ORGANIZATION",
+            "words": [
+              {
+                "value": "Kapil Store"
+              }
+            ]
+          },
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "Kangla"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      },
+      "endLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      }
+    },
+    {
+      "id": "169af318-06b4-4c7b-a1ec-ba77545d3b3c",
+      "callDatetime": "2025-10-20T05:53:07Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "5b5fe700-2791-4892-ad53-0bee86e95aa7",
+          "value": "OUTGOING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "This call revolves around coordinating a meeting with several individuals, including 'Mujur,' 'Sahab,' 'Taiyu sir,' and 'Alam.' The initial discussion touches on someone being scammed while trying to quickly double their money. The core of the conversation focuses on logistics – arranging a series of visits, starting with someone at a nursing home ('they were scared and came to the nursing home') and then moving to locations like 'the mill' and a teacher's location near 'Karbala shop.' Lunch is planned around 11:30 AM, preceded by breakfast at 9:00 AM. \n\nThe group plans to meet near 'uncle's fertilizer' within five minutes, with 'Shab' currently near 'Rins.' Practical concerns like helmets are addressed, confirming everything needed is readily available. The call establishes a plan for multiple meetings and site visits within the day.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-20T05:55:27Z",
+      "callerNumber": "9960820205",
+      "calleeNumber": "9869803642",
+      "isActive": true,
+      "createdAt": "2025-10-29T14:47:41.848856Z",
+      "createdBy": "4dc7bbd7-e29a-4bdf-addf-64935888b5c6",
+      "updatedAt": "2025-10-30T07:25:09.489302Z",
+      "updatedBy": "52cc7f32-a476-4668-91f7-a1cf022be73f",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/5fdb7015-b11c-4974-955f-541f3cb8a90b/d16fa7bc-562f-4e86-bff1-06244cb58ffc",
+      "fileName": "112788721-11-301944-3-17-20250622-112307.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [
+        {
+          "phrase": "nashta",
+          "referencePhrase": "nashta",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "teacher",
+          "referencePhrase": "teacher",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "MEDIUM",
+          "labelUuid": "8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a"
+        },
+        {
+          "phrase": "paise",
+          "referencePhrase": "paise",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "MEDIUM",
+          "labelUuid": "8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a"
+        }
+      ],
+      "globalKeywords": [
+        {
+          "phrase": "sahab",
+          "referencePhrase": "sahab",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "Alam"
+              },
+              {
+                "value": "Mujur"
+              },
+              {
+                "value": "Rins"
+              },
+              {
+                "value": "Sahab"
+              },
+              {
+                "value": "Shab"
+              },
+              {
+                "value": "Taiyu"
+              }
+            ]
+          },
+          {
+            "type": "TIME",
+            "words": [
+              {
+                "value": "eleven-thirty"
+              },
+              {
+                "value": "five minutes"
+              },
+              {
+                "value": "nine"
+              }
+            ]
+          },
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "Karbala"
+              }
+            ]
+          },
+          {
+            "type": "CURRENCY",
+            "words": [
+              {
+                "value": "crore rupaye"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      },
+      "endLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      },
+      "comments": [
+        {
+          "comment_id": "e02f4e3a-9a96-475b-be6e-daac12ba59aa",
+          "comment_type": "call",
+          "record_id": "169af318-06b4-4c7b-a1ec-ba77545d3b3c",
+          "target_id": "b2394eb7-fc11-4056-8e99-d4a4cadc436e",
+          "content": "First comment",
+          "user_id": "user-123",
+          "user_name": "Jane Doe",
+          "created_at": "2025-10-30T09:49:46.355Z",
+          "updated_at": null
+        }
+      ]
+    },
+    {
+      "id": "353b230c-cd7a-4c91-9d1c-c47ef81e4999",
+      "callDatetime": "2025-10-08T07:18:32Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "6aacaec3-6b25-492e-8558-097078417aea",
+          "value": "INCOMING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "This call involves coordinating a meeting or visit, potentially involving \"SP Shiv\" and someone referred to as \"eighteen sir.\" The speakers are attempting to locate \"eighteen sir\" and determine his current whereabouts, noting he was recently at Khar Morada and had something installed \"above\" yesterday, possibly related to his \"in-law's circle.\" There's a request for \"two from HPCC\" which are expected to arrive. The conversation also touches upon difficulties in tracking his location and a preference for conducting activities \"at our home.\"",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-08T07:20:02Z",
+      "callerNumber": "9869803642",
+      "calleeNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.050986Z",
+      "createdBy": "2dfc7111-6aad-4923-8df0-e39e53736722",
+      "updatedAt": "2025-10-29T13:12:26.235736Z",
+      "updatedBy": "90232b59-1436-466f-993f-e53c42c6d18b",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/03e5b00e-2b13-4263-a6c3-b006dab405b7",
+      "fileName": "08102025-124832.27219915.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [],
+      "globalKeywords": [
+        {
+          "phrase": "sahab",
+          "referencePhrase": "sahab",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "ORGANIZATION",
+            "words": [
+              {
+                "value": "HPCC"
+              }
+            ]
+          },
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "SP Shiv"
+              }
+            ]
+          },
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "Khar Morada"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      },
+      "endLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      }
+    },
+    {
+      "id": "3a94f45d-1bf9-493d-a051-cb9fb0a62e20",
+      "callDatetime": "2025-10-21T12:51:55Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "6aacaec3-6b25-492e-8558-097078417aea",
+          "value": "INCOMING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "dc452157-201b-47d9-9928-d3158bb10d42",
+          "value": "MEDIUM"
+        }
+      ],
+      "comment": "",
+      "summary": "This call centers around resolving issues related to a broken phone and ensuring a child's education isn't disrupted. The speaker requests someone turn a car around and deliver it from 'the other side,' offering to cover any extra costs to demonstrate responsibility to the child’s parents. A significant point of contention is delayed funding – potentially impacting the education of 1525 children – with the speaker accusing the other party of deflecting responsibility and wasting time. \n\nThe conversation also touches upon weather conditions (heavy rain in the speaker’s location, potentially in Ranchi), and a request to be reminded about a fee and ensure the child is properly seated (likely in a class). The speaker concludes by asking for a religious invocation ('Dismilllah') for success tomorrow.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-21T12:53:43Z",
+      "callerNumber": "9869803640",
+      "calleeNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T14:47:41.842213Z",
+      "createdBy": "81d4221d-b38d-4f5b-a8a5-46db863205f7",
+      "updatedAt": "2025-10-30T03:32:04.500576Z",
+      "updatedBy": "3843d759-22cc-4671-a60c-16ea30231a7b",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/5fdb7015-b11c-4974-955f-541f3cb8a90b/987b90d5-908b-4ae8-a2db-683cdb822a6f",
+      "fileName": "112824163-11-301944-3-11-20250622-182155.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [
+        {
+          "phrase": "bachche",
+          "referencePhrase": "bacche",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "LOW",
+          "labelUuid": "4491c44f-d4a0-465f-8e3c-1d57d9e0c8bf"
+        },
+        {
+          "phrase": "padhai",
+          "referencePhrase": "padhai",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "fees",
+          "referencePhrase": "fees",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "MEDIUM",
+          "labelUuid": "8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a"
+        }
+      ],
+      "globalKeywords": [],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "Ranchi"
+              },
+              {
+                "value": "Sissner"
+              }
+            ]
+          },
+          {
+            "type": "EVENTS",
+            "words": [
+              {
+                "value": "Dismilllah"
+              },
+              {
+                "value": "Inshallah"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      },
+      "endLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      }
+    },
+    {
+      "id": "73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8",
+      "callDatetime": "2025-10-08T07:15:07Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "5b5fe700-2791-4892-ad53-0bee86e95aa7",
+          "value": "OUTGOING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "This conversation centers around recent intelligence regarding 'Mui,' who, along with associated agencies, is recruiting young people through online job scams on social media. The discussion then shifts to logistical details and personal matters. Individuals named Usman and 'Dada' visited Amarpur, and there's mention of a car and an unrecognized phone number. A lost wallet containing cash and a card was reported, with reluctance to file a police report due to perceived inaction. There is also talk of a local head of the locality traveling and preparations being made for visitors, including decorations and refreshments. A request from 'Marwari' for a letter is mentioned, prompting a need to consult with a husband. Finally, there is discussion of a 700 rupee discount and greetings being exchanged.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-08T07:19:18Z",
+      "callerNumber": "9960820205",
+      "calleeNumber": "9869803642",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.036596Z",
+      "createdBy": "ced14e8e-cd21-4d82-be9b-21f0c37f2a3d",
+      "updatedAt": "2025-10-29T13:13:03.91059Z",
+      "updatedBy": "f3a5d3a4-8f2c-4e0d-8a29-2fc801c75068",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/bb8e9353-d9a9-4604-8d55-cd65555582b8",
+      "fileName": "08102025-124507.27211159.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [],
+      "globalKeywords": [
+        {
+          "phrase": "raat",
+          "referencePhrase": "raat",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "sahab,",
+          "referencePhrase": "sahab",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "Marwari"
+              },
+              {
+                "value": "Mui"
+              },
+              {
+                "value": "Usman"
+              }
+            ]
+          },
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "Amarpur"
+              }
+            ]
+          },
+          {
+            "type": "CURRENCY",
+            "words": [
+              {
+                "value": "seven hundred rupees"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      },
+      "endLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      }
+    },
+    {
+      "id": "a30a6c05-836f-48e6-b2bc-afe2ab6270b9",
+      "callDatetime": "2025-10-22T01:39:29Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "5b5fe700-2791-4892-ad53-0bee86e95aa7",
+          "value": "OUTGOING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "This call revolves around confirming someone's attendance and addressing concerns about their health and work performance. The individual was previously instructed to call before coming to school/work, and there was confusion regarding whether or not they were coming. Despite initial hesitancy and claims of illness, the individual ultimately confirms they are coming and will be ready within ten minutes. A significant portion of the conversation focuses on the individual's tendency to make excuses and their perceived need for support ('two people with them') which is viewed negatively. There's mention of a prior report regarding measurements taken, and a directive to inform Sanial Ma'am. The caller emphasizes their willingness to work with the individual but expresses frustration with their behavior and excuses.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-22T01:41:18Z",
+      "callerNumber": "9960820205",
+      "calleeNumber": "9869803642",
+      "isActive": true,
+      "createdAt": "2025-10-29T14:47:41.830293Z",
+      "createdBy": "43f66b3c-e608-4027-86ce-1f48bf9c9c4f",
+      "updatedAt": "2025-10-30T10:23:54.182995Z",
+      "updatedBy": "d8a0b305-011f-46c0-9b04-282ab21f5137",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/5fdb7015-b11c-4974-955f-541f3cb8a90b/ead35afa-bd33-4040-a18b-dc11b6c0a34f",
+      "fileName": "112863950-11-301944-0-27-20250623-070929.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [
+        {
+          "phrase": "school",
+          "referencePhrase": "school",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "globalKeywords": [
+        {
+          "phrase": "raat",
+          "referencePhrase": "raat",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "sahab",
+          "referencePhrase": "sahab",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "fitting",
+          "referencePhrase": "fitting",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "Mahfuz Sahab"
+              },
+              {
+                "value": "Sanial Ma'am"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      },
+      "endLocation": {
+        "latitude": "18.564154",
+        "longitude": "73.807065"
+      }
+    },
+    {
+      "id": "c569eb22-d4ec-48b6-8e8a-83f658f0287b",
+      "callDatetime": "2025-10-08T06:39:14Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "6aacaec3-6b25-492e-8558-097078417aea",
+          "value": "INCOMING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "This lengthy call is a fragmented and rambling conversation among family members, touching upon a wide array of personal concerns, daily life updates, and anxieties. Health is a central theme, with discussions about a grandfather’s fever potentially requiring hospitalization, Jasi and Chearia’s recoveries, concerns about a possible malaria outbreak, and the ailing health of an unnamed individual experiencing digestive issues and reluctance to take medication – raising worries serious enough to mention a ‘post-mortem’ in passing. Numerous family members are referenced (Salma, Shahid, Sadia, Laasha’s mother, Ali, Sasha, Jafar, and ‘Dubai people’), along with updates on their well-being and activities. Alongside health, there's significant discussion regarding a pending wedding, its associated financial burdens (and a mother's reluctance to contribute), and anxieties about it proceeding correctly.\n\nBeyond immediate family matters, the conversation veers into financial struggles, land acquisition issues ('Igalo plot', fluctuating prices), and work-related difficulties. Numan’s recent job transition after eight months is discussed, as is Nasir uncle’s retirement and pension. Speakers express frustration with bureaucratic processes involving 'papers' and a perceived lack of progress over a two-year period. Everyday occurrences are interspersed throughout – meal preparation (noodles, macaroni, mughlai cuisine), minor household tasks (dirty stove, bike repair), recent visits (Niccola, Panchi, Salma, Maami’s trip to Kashmir), and inquiries about local events. A sense of unease permeates the discussion, linked to potential criminal activity at a school and concerns about 'Corona'.\n\nThroughout the call, participants offer advice, share updates, and express religious sentiments (‘Alhamdulillah,’ prayers) regarding hope for recovery and favorable outcomes. The discussion is characterized by frequent interruptions, shifts in subject matter, and a general feeling of things 'not working out,' illustrating a complex web of family dynamics, differing opinions, and persistent challenges. Requests for assistance, such as inquiries about fertilizer and deliveries, are woven into the broader tapestry of anxieties and everyday routines, resulting in a comprehensive yet disjointed portrayal of family life.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-08T07:14:50Z",
+      "callerNumber": "9869803646",
+      "calleeNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.0052Z",
+      "createdBy": "02996323-294d-421f-a190-b9e5ccd0a91b",
+      "updatedAt": "2025-10-29T13:12:01.897077Z",
+      "updatedBy": "27402e6a-2941-43de-91d8-0a75c0b7f733",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/422ac267-f709-4481-8d90-c8ec8ed73b08",
+      "fileName": "08102025-120914.27152060.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [],
+      "globalKeywords": [
+        {
+          "phrase": "raat",
+          "referencePhrase": "raat",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "gali",
+          "referencePhrase": "gali",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "isi",
+          "referencePhrase": "isi",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "chutti",
+          "referencePhrase": "chuti",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "kashmir",
+          "referencePhrase": "Kashmir",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "side",
+          "referencePhrase": "side",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "un",
+          "referencePhrase": "un",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "sahab,",
+          "referencePhrase": "sahab",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "khatam",
+          "referencePhrase": "khatam",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "banda",
+          "referencePhrase": "banday",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        },
+        {
+          "phrase": "mehmaan",
+          "referencePhrase": "mehman",
+          "language": "Hindi",
+          "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "Salman"
+              },
+              {
+                "value": "Suaa"
+              },
+              {
+                "value": "Allah"
+              },
+              {
+                "value": "Asad"
+              },
+              {
+                "value": "Maria"
+              },
+              {
+                "value": "Salma Dani"
+              }
+            ]
+          },
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "Nadahal"
+              },
+              {
+                "value": "Badahal"
+              },
+              {
+                "value": "Dubai"
+              },
+              {
+                "value": "Kalawa"
+              }
+            ]
+          },
+          {
+            "type": "EVENTS",
+            "words": [
+              {
+                "value": "Corona"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.564164",
+        "longitude": "73.807086"
+      },
+      "endLocation": {
+        "latitude": "18.564164",
+        "longitude": "73.807086"
+      }
+    },
+    {
+      "id": "ceb20bb2-2771-4cd2-aeb3-95b9cc1739af",
+      "callDatetime": "2025-10-08T07:13:56Z",
+      "duration": 0,
+      "callType": [
+        {
+          "uuid": "6aacaec3-6b25-492e-8558-097078417aea",
+          "value": "INCOMING"
+        }
+      ],
+      "category": [],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "summary": "This communication appears to be instructions given during a potentially chaotic situation, likely involving a group of people. Individuals are being directed to move aside, specifically those connected to 'Luvy's abuses' and those from 'the excavation town'. A numerical value, 'Three thousand six hundred and fifteen', is mentioned alongside the phrase 'today's black', possibly referencing a code, identifier, or a negative event occurring on that day. The initial phrases suggest a possible attempt to contact an agency and a question about tardiness.",
+      "callReadStatus": "eeadcc43-de9f-4a4a-adf9-00a8fb6fb934",
+      "callEndtime": "2025-10-08T07:14:40Z",
+      "callerNumber": "9869803647",
+      "calleeNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.028703Z",
+      "createdBy": "456cb9d3-6715-4a68-800d-fa4819f700b2",
+      "updatedAt": "2025-10-29T13:14:25.992699Z",
+      "updatedBy": "48535d02-5eaf-4dfc-8b48-4e1e9646c3b6",
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/e92ec747-b958-4bd4-a972-d3e98d8499bc",
+      "fileName": "08102025-124356.27209145.wav",
+      "language": "Hindi",
+      "speakers": ["speaker_0", "speaker_1"],
+      "targetKeywords": [],
+      "globalKeywords": [
+        {
+          "phrase": "side",
+          "referencePhrase": "side",
+          "language": "English",
+          "languageUuid": "afe98819-1e2c-4386-a6eb-83d2ca2e042e",
+          "label": "HIGH",
+          "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3"
+        }
+      ],
+      "callEntities": {
+        "Locator": [
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "Luvy"
+              }
+            ]
+          },
+          {
+            "type": "TIME",
+            "words": [
+              {
+                "value": "Three thousand six hundred and fifteen"
+              }
+            ]
+          },
+          {
+            "type": "ORGANIZATION",
+            "words": [
+              {
+                "value": "Agency"
+              }
+            ]
+          }
+        ]
+      },
+      "startLocation": {
+        "latitude": "18.527008",
+        "longitude": "73.743563"
+      },
+      "endLocation": {
+        "latitude": "18.527008",
+        "longitude": "73.743563"
+      }
+    }
+  ],
+  "smsRecords": [
+    {
+      "id": "1e2318ca-80df-4130-8e83-f8ca889697ec",
+      "smsDatetime": "2025-10-09T04:51:09Z",
+      "category": [
+        {
+          "uuid": "87b91e9e-119d-4d1a-9e53-4074c3601467",
+          "value": "FINANCIAL"
+        }
+      ],
+      "criticality": [
+        {
+          "uuid": "e4d8e241-e743-42bd-b9d7-c4649ccdd507",
+          "value": "LOW"
+        }
+      ],
+      "comment": "",
+      "message": "INR 232.00 debited A/c no. XX7879\r\n04-10-25, 15:13:22\r\nUPI/P2A/527717520574/Mr SUNIL BABUSHA KA\r\nNot you? SMS BLOCKUPI Cust ID to 919951860002\r\nAxis Bank",
+      "senderNumber": "AD-AXISBK-S",
+      "receiverNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.665676Z",
+      "createdBy": "0f6dd23a-57d9-4ae5-9ec3-33d03ffe3813",
+      "updatedAt": "2025-10-29T13:56:18.606884Z",
+      "updatedBy": "1304a685-ef91-413a-9e25-0d8531466f63",
+      "summary": "",
+      "smsType": [
+        {
+          "uuid": "87b91e9e-119d-4d1a-9e53-4074c3601467",
+          "value": "FINANCIAL"
+        }
+      ],
+      "language": null,
+      "targetKeywords": [],
+      "globalKeywords": [],
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/e5649626-73d6-43c1-b19a-4f553c6b2ed6",
+      "fileName": "114259644.txt",
+      "smsReadStatus": "1c128ef8-545b-40c2-b734-dc1459d1b4d2",
+      "smsEntities": {
+        "Locator": [
+          {
+            "type": "PHONE NUMBER",
+            "words": [
+              {
+                "value": "919951860002"
+              }
+            ]
+          },
+          {
+            "type": "TIME",
+            "words": [
+              {
+                "value": "04-10-25"
+              },
+              {
+                "value": "15:13:22"
+              }
+            ]
+          },
+          {
+            "type": "FINANCIAL_ENTITIES",
+            "words": [
+              {
+                "value": "Axis Bank"
+              }
+            ]
+          },
+          {
+            "type": "CURRENCY",
+            "words": [
+              {
+                "value": "INR"
+              }
+            ]
+          },
+          {
+            "type": "ACCOUNT NUMBER",
+            "words": [
+              {
+                "value": "XX7879"
+              }
+            ]
+          },
+          {
+            "type": "PERSON",
+            "words": [
+              {
+                "value": "SUNIL BABUSHA KA"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2a075824-3138-454f-8cee-f049d8197718",
+      "smsDatetime": "2025-10-08T05:51:09Z",
+      "category": [
+        {
+          "uuid": "87b91e9e-119d-4d1a-9e53-4074c3601467",
+          "value": "FINANCIAL"
+        }
+      ],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "message": "Transaction Confirmation Alert: Your SIP Purchase of Rs.4,999.75 in Small Cap Fund - Reg - G (Folio ***777) has been processed for 08-Oct-2025 at NAV Rs.193.873. View your Smart Statement here. T&C apply. - DSPMF",
+      "senderNumber": "AD-AXISBK-S",
+      "receiverNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.653787Z",
+      "createdBy": "809da874-6afe-47ed-8b54-977dc420188f",
+      "updatedAt": "2025-10-30T07:28:23.596278Z",
+      "updatedBy": "c26b4986-cc13-4753-acb9-ea19300db02e",
+      "summary": "",
+      "smsType": [
+        {
+          "uuid": "87b91e9e-119d-4d1a-9e53-4074c3601467",
+          "value": "FINANCIAL"
+        }
+      ],
+      "language": null,
+      "targetKeywords": [],
+      "globalKeywords": ["alert:"],
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/4cab1a47-9a87-4a51-85a0-0168a4ac7236",
+      "fileName": "114259646.txt",
+      "smsReadStatus": "1c128ef8-545b-40c2-b734-dc1459d1b4d2",
+      "smsEntities": {
+        "Locator": [
+          {
+            "type": "CURRENCY",
+            "words": [
+              {
+                "value": "Rs.193.873"
+              },
+              {
+                "value": "Rs.4,999.75"
+              }
+            ]
+          },
+          {
+            "type": "TIME",
+            "words": [
+              {
+                "value": "08-Oct-2025"
+              }
+            ]
+          },
+          {
+            "type": "FINANCIAL_ENTITIES",
+            "words": [
+              {
+                "value": "DSPMF"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "705fe11b-0646-475c-81af-af1087cb351b",
+      "smsDatetime": "2025-10-08T09:53:13Z",
+      "category": [
+        {
+          "uuid": "de42e051-10ce-4a86-a3cb-aaad9e8e4f18",
+          "value": "BUSINESS"
+        }
+      ],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "message": "Your Swiggy order#214820414675203 is confirmed. Complete payment here https://www.swiggy.com/track-order?orderId=214820414675203 or ask delivery partner for QR code",
+      "senderNumber": "TG-SWIG-VM",
+      "receiverNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.645753Z",
+      "createdBy": "be2bb31c-1a45-40cf-8774-c4242f3471bf",
+      "updatedAt": "2025-10-29T12:24:10.66533Z",
+      "updatedBy": "00000000-0000-0000-0000-000000000000",
+      "summary": "",
+      "smsType": [
+        {
+          "uuid": "de42e051-10ce-4a86-a3cb-aaad9e8e4f18",
+          "value": "BUSINESS"
+        }
+      ],
+      "language": null,
+      "targetKeywords": [],
+      "globalKeywords": ["code"],
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/2b827d51-7277-4bd6-a9fd-ab922a920058",
+      "fileName": "114259642.txt",
+      "smsReadStatus": "a88bee72-a191-4bf4-bfe0-3a9db149cb99",
+      "smsEntities": {
+        "Locator": [
+          {
+            "type": "ORGANIZATION",
+            "words": [
+              {
+                "value": "Swiggy"
+              }
+            ]
+          },
+          {
+            "type": "VEHICLE NUMBER",
+            "words": [
+              {
+                "value": "214820414675203"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "756569a7-9191-4c3a-8328-d7889070c13d",
+      "smsDatetime": "2025-10-08T05:51:09Z",
+      "category": [
+        {
+          "uuid": "87b91e9e-119d-4d1a-9e53-4074c3601467",
+          "value": "FINANCIAL"
+        }
+      ],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "message": "Transaction Confirmation Alert: Your SIP Purchase of Rs.4,999.75 in Small Cap Fund - Reg - G (Folio ***777) has been processed for 06-Oct-2025 at NAV Rs.193.873. View your Smart Statement here. T&C apply. - DSPMF",
+      "senderNumber": "AD-AXISBK-S",
+      "receiverNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.659872Z",
+      "createdBy": "fe2336b9-d7ec-4519-9c2e-b31955adbd72",
+      "updatedAt": "2025-10-29T12:24:10.697305Z",
+      "updatedBy": "00000000-0000-0000-0000-000000000000",
+      "summary": "",
+      "smsType": [
+        {
+          "uuid": "87b91e9e-119d-4d1a-9e53-4074c3601467",
+          "value": "FINANCIAL"
+        }
+      ],
+      "language": null,
+      "targetKeywords": [],
+      "globalKeywords": ["alert:"],
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/1c4fc4fe-ac71-41cd-9a10-8d3f50a8fb58",
+      "fileName": "114259645.txt",
+      "smsReadStatus": "a88bee72-a191-4bf4-bfe0-3a9db149cb99",
+      "smsEntities": {
+        "Locator": [
+          {
+            "type": "TIME",
+            "words": [
+              {
+                "value": "06-Oct-2025"
+              }
+            ]
+          },
+          {
+            "type": "FINANCIAL_ENTITIES",
+            "words": [
+              {
+                "value": "DSPMF"
+              }
+            ]
+          },
+          {
+            "type": "CURRENCY",
+            "words": [
+              {
+                "value": "Rs.193.873"
+              },
+              {
+                "value": "Rs.4,999.75"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5cbd66c-4553-4c49-a601-be05ae442116",
+      "smsDatetime": "2025-10-08T08:53:13Z",
+      "category": [
+        {
+          "uuid": "b0b53e0f-4999-4c7c-bb8f-24400d5f41a6",
+          "value": "PERSONAL"
+        }
+      ],
+      "criticality": [
+        {
+          "uuid": "e4d8e241-e743-42bd-b9d7-c4649ccdd507",
+          "value": "LOW"
+        }
+      ],
+      "comment": "",
+      "message": "Sure. This month I am running short on funds. Laddu and Chai ki dawaat will be on you!",
+      "senderNumber": "9850841831",
+      "receiverNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.6719Z",
+      "createdBy": "96fe9dd3-01ac-4dcc-8eb1-6b4847648c57",
+      "updatedAt": "2025-10-29T12:24:10.716659Z",
+      "updatedBy": "00000000-0000-0000-0000-000000000000",
+      "summary": "",
+      "smsType": [
+        {
+          "uuid": "b0b53e0f-4999-4c7c-bb8f-24400d5f41a6",
+          "value": "PERSONAL"
+        }
+      ],
+      "language": null,
+      "targetKeywords": [],
+      "globalKeywords": [],
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/21fa00ac-807a-41b3-9aa7-92a183bd8d45",
+      "fileName": "114259641.txt",
+      "smsReadStatus": "a88bee72-a191-4bf4-bfe0-3a9db149cb99",
+      "smsEntities": {
+        "Locator": [
+          {
+            "type": "EVENTS",
+            "words": [
+              {
+                "value": "Chai"
+              },
+              {
+                "value": "Laddu"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb",
+      "smsDatetime": "2025-10-08T12:51:09Z",
+      "category": [
+        {
+          "uuid": "80da6217-45fd-45db-826d-612985ef6742",
+          "value": "TRAVEL"
+        }
+      ],
+      "criticality": [
+        {
+          "uuid": "1a71088e-ebbf-4d43-ad39-beb4ef7f89f3",
+          "value": "HIGH"
+        }
+      ],
+      "comment": "",
+      "message": "IndiGo: Dear IndiGo Customer, flight 6473 from PNQ  shall be boarding from gate 7. Boarding gate closes 25 mins prior to the departure time. Wish you a pleasant flight. Regards, IndiGo",
+      "senderNumber": "VM-IndiGo-S",
+      "receiverNumber": "9960820205",
+      "isActive": true,
+      "createdAt": "2025-10-29T12:24:10.677642Z",
+      "createdBy": "9727cbec-1666-4833-b44d-9372a3355cab",
+      "updatedAt": "2025-10-29T12:24:10.732302Z",
+      "updatedBy": "00000000-0000-0000-0000-000000000000",
+      "summary": "",
+      "smsType": [
+        {
+          "uuid": "80da6217-45fd-45db-826d-612985ef6742",
+          "value": "TRAVEL"
+        }
+      ],
+      "language": null,
+      "targetKeywords": [],
+      "globalKeywords": ["gate", "flight"],
+      "filePath": "http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/e9265de2-9706-4c69-b756-644333e5048a",
+      "fileName": "114259643.txt",
+      "smsReadStatus": "a88bee72-a191-4bf4-bfe0-3a9db149cb99",
+      "smsEntities": {
+        "Locator": [
+          {
+            "type": "ORGANIZATION",
+            "words": [
+              {
+                "value": "IndiGo"
+              }
+            ]
+          },
+          {
+            "type": "VEHICLE",
+            "words": [
+              {
+                "value": "6473"
+              }
+            ]
+          },
+          {
+            "type": "TIME",
+            "words": [
+              {
+                "value": "25 mins"
+              }
+            ]
+          },
+          {
+            "type": "LOCATION",
+            "words": [
+              {
+                "value": "PNQ"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "targetVocabulary": [
+    {
+      "phrase": "nashta",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "HIGH",
+      "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    },
+    {
+      "phrase": "teacher",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "MEDIUM",
+      "labelUuid": "8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    },
+    {
+      "phrase": "paise",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "MEDIUM",
+      "labelUuid": "8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    },
+    {
+      "phrase": "bacche",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "LOW",
+      "labelUuid": "4491c44f-d4a0-465f-8e3c-1d57d9e0c8bf",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    },
+    {
+      "phrase": "padhai",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "HIGH",
+      "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    },
+    {
+      "phrase": "school",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "HIGH",
+      "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    },
+    {
+      "phrase": "fees",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "MEDIUM",
+      "labelUuid": "8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    },
+    {
+      "phrase": "galti",
+      "language": "Hindi",
+      "languageUuid": "2026ce9b-068f-436a-bf6e-903dea85c0b0",
+      "label": "HIGH",
+      "labelUuid": "d6477452-f595-491d-89b5-0d6ac27980a3",
+      "callCount": 0,
+      "smsCount": 0,
+      "totalCount": 0
+    }
+  ],
+  "matchedKeywords": {
+    "status": true,
+    "data": {
+      "matchedTargetKeywords": [
+        {
+          "keyword": "nashta",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["169af318-06b4-4c7b-a1ec-ba77545d3b3c"]
+        },
+        {
+          "keyword": "teacher",
+          "label": "MEDIUM",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["169af318-06b4-4c7b-a1ec-ba77545d3b3c"]
+        },
+        {
+          "keyword": "paise",
+          "label": "MEDIUM",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["169af318-06b4-4c7b-a1ec-ba77545d3b3c"]
+        },
+        {
+          "keyword": "bachche",
+          "label": "LOW",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["3a94f45d-1bf9-493d-a051-cb9fb0a62e20"]
+        },
+        {
+          "keyword": "padhai",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["3a94f45d-1bf9-493d-a051-cb9fb0a62e20"]
+        },
+        {
+          "keyword": "fees",
+          "label": "MEDIUM",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["3a94f45d-1bf9-493d-a051-cb9fb0a62e20"]
+        },
+        {
+          "keyword": "school",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["a30a6c05-836f-48e6-b2bc-afe2ab6270b9"]
+        }
+      ],
+      "matchedGlobalKeywords": [
+        {
+          "keyword": "army",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8"]
+        },
+        {
+          "keyword": "holi",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8"]
+        },
+        {
+          "keyword": "stand",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["14ac15ce-5ea3-4710-bf28-b9388870d98a"]
+        },
+        {
+          "keyword": "raat",
+          "label": "HIGH",
+          "callCount": 4,
+          "smsCount": 0,
+          "totalCount": 4,
+          "callUids": [
+            "14ac15ce-5ea3-4710-bf28-b9388870d98a",
+            "73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8",
+            "a30a6c05-836f-48e6-b2bc-afe2ab6270b9",
+            "c569eb22-d4ec-48b6-8e8a-83f658f0287b"
+          ]
+        },
+        {
+          "keyword": "chutti",
+          "label": "HIGH",
+          "callCount": 2,
+          "smsCount": 0,
+          "totalCount": 2,
+          "callUids": [
+            "14ac15ce-5ea3-4710-bf28-b9388870d98a",
+            "c569eb22-d4ec-48b6-8e8a-83f658f0287b"
+          ]
+        },
+        {
+          "keyword": "sahab",
+          "label": "HIGH",
+          "callCount": 3,
+          "smsCount": 0,
+          "totalCount": 3,
+          "callUids": [
+            "169af318-06b4-4c7b-a1ec-ba77545d3b3c",
+            "353b230c-cd7a-4c91-9d1c-c47ef81e4999",
+            "a30a6c05-836f-48e6-b2bc-afe2ab6270b9"
+          ]
+        },
+        {
+          "keyword": "sahab,",
+          "label": "HIGH",
+          "callCount": 2,
+          "smsCount": 0,
+          "totalCount": 2,
+          "callUids": [
+            "73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8",
+            "c569eb22-d4ec-48b6-8e8a-83f658f0287b"
+          ]
+        },
+        {
+          "keyword": "fitting",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["a30a6c05-836f-48e6-b2bc-afe2ab6270b9"]
+        },
+        {
+          "keyword": "gali",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["c569eb22-d4ec-48b6-8e8a-83f658f0287b"]
+        },
+        {
+          "keyword": "isi",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["c569eb22-d4ec-48b6-8e8a-83f658f0287b"]
+        },
+        {
+          "keyword": "kashmir",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["c569eb22-d4ec-48b6-8e8a-83f658f0287b"]
+        },
+        {
+          "keyword": "side",
+          "label": "HIGH",
+          "callCount": 2,
+          "smsCount": 0,
+          "totalCount": 2,
+          "callUids": [
+            "c569eb22-d4ec-48b6-8e8a-83f658f0287b",
+            "ceb20bb2-2771-4cd2-aeb3-95b9cc1739af"
+          ]
+        },
+        {
+          "keyword": "un",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["c569eb22-d4ec-48b6-8e8a-83f658f0287b"]
+        },
+        {
+          "keyword": "khatam",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["c569eb22-d4ec-48b6-8e8a-83f658f0287b"]
+        },
+        {
+          "keyword": "banda",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["c569eb22-d4ec-48b6-8e8a-83f658f0287b"]
+        },
+        {
+          "keyword": "mehmaan",
+          "label": "HIGH",
+          "callCount": 1,
+          "smsCount": 0,
+          "totalCount": 1,
+          "callUids": ["c569eb22-d4ec-48b6-8e8a-83f658f0287b"]
+        },
+        {
+          "callCount": 5,
+          "smsCount": 0,
+          "totalCount": 5,
+          "callUids": [
+            "2a075824-3138-454f-8cee-f049d8197718",
+            "705fe11b-0646-475c-81af-af1087cb351b",
+            "756569a7-9191-4c3a-8328-d7889070c13d",
+            "d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb",
+            "d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb"
+          ]
+        }
+      ]
+    }
+  },
+  "comments": [
+    {
+      "comment_id": "e02f4e3a-9a96-475b-be6e-daac12ba59aa",
+      "comment_type": "call",
+      "record_id": "169af318-06b4-4c7b-a1ec-ba77545d3b3c",
+      "target_id": "b2394eb7-fc11-4056-8e99-d4a4cadc436e",
+      "content": "First comment",
+      "user_id": "user-123",
+      "user_name": "Jane Doe",
+      "created_at": "2025-10-30T09:49:46.355Z",
+      "updated_at": null
+    }
+  ],
+  "locators": [
+    {
+      "type": "ORGANIZATION",
+      "words": [
+        {
+          "value": "social media platform companies"
+        },
+        {
+          "value": "army"
+        },
+        {
+          "value": "Kapil Store"
+        },
+        {
+          "value": "HPCC"
+        },
+        {
+          "value": "Agency"
+        },
+        {
+          "value": "Swiggy"
+        },
+        {
+          "value": "IndiGo"
+        }
+      ]
+    },
+    {
+      "type": "PERSON",
+      "words": [
+        {
+          "value": "Khan"
+        },
+        {
+          "value": "Kangla"
+        },
+        {
+          "value": "Alam"
+        },
+        {
+          "value": "Mujur"
+        },
+        {
+          "value": "Rins"
+        },
+        {
+          "value": "Sahab"
+        },
+        {
+          "value": "Shab"
+        },
+        {
+          "value": "Taiyu"
+        },
+        {
+          "value": "SP Shiv"
+        },
+        {
+          "value": "Marwari"
+        },
+        {
+          "value": "Mui"
+        },
+        {
+          "value": "Usman"
+        },
+        {
+          "value": "Mahfuz Sahab"
+        },
+        {
+          "value": "Sanial Ma'am"
+        },
+        {
+          "value": "Salman"
+        },
+        {
+          "value": "Suaa"
+        },
+        {
+          "value": "Allah"
+        },
+        {
+          "value": "Asad"
+        },
+        {
+          "value": "Maria"
+        },
+        {
+          "value": "Salma Dani"
+        },
+        {
+          "value": "Luvy"
+        },
+        {
+          "value": "SUNIL BABUSHA KA"
+        }
+      ]
+    },
+    {
+      "type": "COUNTRY",
+      "words": [
+        {
+          "value": "mulk"
+        }
+      ]
+    },
+    {
+      "type": "LOCATION",
+      "words": [
+        {
+          "value": "shaharon"
+        },
+        {
+          "value": "Ranchi"
+        },
+        {
+          "value": "Fasaad"
+        },
+        {
+          "value": "Karbala"
+        },
+        {
+          "value": "Khar Morada"
+        },
+        {
+          "value": "Ranchi"
+        },
+        {
+          "value": "Sissner"
+        },
+        {
+          "value": "Amarpur"
+        },
+        {
+          "value": "Nadahal"
+        },
+        {
+          "value": "Badahal"
+        },
+        {
+          "value": "Dubai"
+        },
+        {
+          "value": "Kalawa"
+        },
+        {
+          "value": "PNQ"
+        }
+      ]
+    },
+    {
+      "type": "EVENTS",
+      "words": [
+        {
+          "value": "Holi"
+        },
+        {
+          "value": "Dismilllah"
+        },
+        {
+          "value": "Inshallah"
+        },
+        {
+          "value": "Corona"
+        },
+        {
+          "value": "Chai"
+        },
+        {
+          "value": "Laddu"
+        }
+      ]
+    },
+    {
+      "type": "TIME",
+      "words": [
+        {
+          "value": "eleven-thirty"
+        },
+        {
+          "value": "five minutes"
+        },
+        {
+          "value": "nine"
+        },
+        {
+          "value": "Three thousand six hundred and fifteen"
+        },
+        {
+          "value": "04-10-25"
+        },
+        {
+          "value": "15:13:22"
+        },
+        {
+          "value": "08-Oct-2025"
+        },
+        {
+          "value": "06-Oct-2025"
+        },
+        {
+          "value": "25 mins"
+        }
+      ]
+    },
+    {
+      "type": "CURRENCY",
+      "words": [
+        {
+          "value": "crore rupaye"
+        },
+        {
+          "value": "seven hundred rupees"
+        },
+        {
+          "value": "INR"
+        },
+        {
+          "value": "Rs.193.873"
+        },
+        {
+          "value": "Rs.4,999.75"
+        },
+        {
+          "value": "Rs.193.873"
+        },
+        {
+          "value": "Rs.4,999.75"
+        }
+      ]
+    },
+    {
+      "type": "PHONE NUMBER",
+      "words": [
+        {
+          "value": "919951860002"
+        }
+      ]
+    },
+    {
+      "type": "FINANCIAL_ENTITIES",
+      "words": [
+        {
+          "value": "Axis Bank"
+        },
+        {
+          "value": "DSPMF"
+        },
+        {
+          "value": "DSPMF"
+        }
+      ]
+    },
+    {
+      "type": "ACCOUNT NUMBER",
+      "words": [
+        {
+          "value": "XX7879"
+        }
+      ]
+    },
+    {
+      "type": "VEHICLE NUMBER",
+      "words": [
+        {
+          "value": "214820414675203"
+        }
+      ]
+    },
+    {
+      "type": "VEHICLE",
+      "words": [
+        {
+          "value": "6473"
+        }
+      ]
+    }
+  ],
+  "link": "http://localhost:3000/",
+  "supportlink": "hello@pi-labs.ai",
+  "generatedAt": "2025-11-13T12:00:34.069Z",
+  "reportMetadata": {
+    "totalCalls": 9,
+    "totalSMS": 6,
+    "criticalKeywords": 0,
+    "highPriorityKeywords": 0,
+    "entitiesFound": 72,
+    "dateRange": {
+      "from": "2025-10-08T05:51:09Z",
+      "to": "2025-10-22T01:39:29Z"
+    }
+  },
+  "clusteredMarkers": [
+    {
+      "position": [18.551283, 73.790847],
+      "markers": [
+        {
+          "record": {
+            "callUID": "756569a7-9191-4c3a-8328-d7889070c13d",
+            "start_lat": 18.551283,
+            "start_lng": 73.790847,
+            "end_lat": 18.551283,
+            "end_lng": 73.790847,
+            "caller": "AD-AXISBK-S",
+            "callee": "9960820205",
+            "duration": "0",
+            "startTimestamp": "2025-10-08T05:51:09Z",
+            "endTimestamp": "2025-10-08T05:51:09Z",
+            "direction": "outgoing",
+            "sourceType": "SMS"
+          },
+          "index": 0,
+          "isStart": true,
+          "position": [18.551283, 73.790847],
+          "isActive": true
+        },
+        {
+          "record": {
+            "callUID": "2a075824-3138-454f-8cee-f049d8197718",
+            "start_lat": 18.551283,
+            "start_lng": 73.790847,
+            "end_lat": 18.551283,
+            "end_lng": 73.790847,
+            "caller": "AD-AXISBK-S",
+            "callee": "9960820205",
+            "duration": "0",
+            "startTimestamp": "2025-10-08T05:51:09Z",
+            "endTimestamp": "2025-10-08T05:51:09Z",
+            "direction": "outgoing",
+            "sourceType": "SMS"
+          },
+          "index": 1,
+          "isStart": true,
+          "position": [18.551283, 73.790847],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "b5cbd66c-4553-4c49-a601-be05ae442116",
+            "start_lat": 18.551283,
+            "start_lng": 73.790847,
+            "end_lat": 18.551283,
+            "end_lng": 73.790847,
+            "caller": "9850841831",
+            "callee": "9960820205",
+            "duration": "0",
+            "startTimestamp": "2025-10-08T08:53:13Z",
+            "endTimestamp": "2025-10-08T08:53:13Z",
+            "direction": "outgoing",
+            "sourceType": "SMS"
+          },
+          "index": 8,
+          "isStart": true,
+          "position": [18.551283, 73.790847],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "705fe11b-0646-475c-81af-af1087cb351b",
+            "start_lat": 18.551283,
+            "start_lng": 73.790847,
+            "end_lat": 18.551283,
+            "end_lng": 73.790847,
+            "caller": "TG-SWIG-VM",
+            "callee": "9960820205",
+            "duration": "0",
+            "startTimestamp": "2025-10-08T09:53:13Z",
+            "endTimestamp": "2025-10-08T09:53:13Z",
+            "direction": "outgoing",
+            "sourceType": "SMS"
+          },
+          "index": 9,
+          "isStart": true,
+          "position": [18.551283, 73.790847],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb",
+            "start_lat": 18.551283,
+            "start_lng": 73.790847,
+            "end_lat": 18.551283,
+            "end_lng": 73.790847,
+            "caller": "VM-IndiGo-S",
+            "callee": "9960820205",
+            "duration": "0",
+            "startTimestamp": "2025-10-08T12:51:09Z",
+            "endTimestamp": "2025-10-08T12:51:09Z",
+            "direction": "outgoing",
+            "sourceType": "SMS"
+          },
+          "index": 10,
+          "isStart": true,
+          "position": [18.551283, 73.790847],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "1e2318ca-80df-4130-8e83-f8ca889697ec",
+            "start_lat": 18.551283,
+            "start_lng": 73.790847,
+            "end_lat": 18.551283,
+            "end_lng": 73.790847,
+            "caller": "AD-AXISBK-S",
+            "callee": "9960820205",
+            "duration": "0",
+            "startTimestamp": "2025-10-09T04:51:09Z",
+            "endTimestamp": "2025-10-09T04:51:09Z",
+            "direction": "outgoing",
+            "sourceType": "SMS"
+          },
+          "index": 11,
+          "isStart": true,
+          "position": [18.551283, 73.790847],
+          "isActive": false
+        }
+      ],
+      "count": 6
+    },
+    {
+      "position": [18.564164, 73.807086],
+      "markers": [
+        {
+          "record": {
+            "callUID": "c569eb22-d4ec-48b6-8e8a-83f658f0287b",
+            "start_lat": 18.564164,
+            "start_lng": 73.807086,
+            "end_lat": 18.564164,
+            "end_lng": 73.807086,
+            "caller": "9869803646",
+            "callee": "9960820205",
+            "duration": "2136",
+            "startTimestamp": "2025-10-08T06:39:14Z",
+            "endTimestamp": "2025-10-08T07:14:50Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 2,
+          "isStart": true,
+          "position": [18.564164, 73.807086],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "c569eb22-d4ec-48b6-8e8a-83f658f0287b",
+            "start_lat": 18.564164,
+            "start_lng": 73.807086,
+            "end_lat": 18.564164,
+            "end_lng": 73.807086,
+            "caller": "9869803646",
+            "callee": "9960820205",
+            "duration": "2136",
+            "startTimestamp": "2025-10-08T06:39:14Z",
+            "endTimestamp": "2025-10-08T07:14:50Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 2,
+          "isStart": false,
+          "position": [18.564164, 73.807086],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9960820205",
+            "callee": "9869803642",
+            "duration": "251",
+            "startTimestamp": "2025-10-08T07:15:07Z",
+            "endTimestamp": "2025-10-08T07:19:18Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 5,
+          "isStart": true,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9960820205",
+            "callee": "9869803642",
+            "duration": "251",
+            "startTimestamp": "2025-10-08T07:15:07Z",
+            "endTimestamp": "2025-10-08T07:19:18Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 5,
+          "isStart": false,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "14ac15ce-5ea3-4710-bf28-b9388870d98a",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9869803642",
+            "callee": "9960820205",
+            "duration": "161",
+            "startTimestamp": "2025-10-08T07:17:40Z",
+            "endTimestamp": "2025-10-08T07:20:21Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 6,
+          "isStart": true,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "14ac15ce-5ea3-4710-bf28-b9388870d98a",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9869803642",
+            "callee": "9960820205",
+            "duration": "161",
+            "startTimestamp": "2025-10-08T07:17:40Z",
+            "endTimestamp": "2025-10-08T07:20:21Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 6,
+          "isStart": false,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "353b230c-cd7a-4c91-9d1c-c47ef81e4999",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9869803642",
+            "callee": "9960820205",
+            "duration": "90",
+            "startTimestamp": "2025-10-08T07:18:32Z",
+            "endTimestamp": "2025-10-08T07:20:02Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 7,
+          "isStart": true,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "353b230c-cd7a-4c91-9d1c-c47ef81e4999",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9869803642",
+            "callee": "9960820205",
+            "duration": "90",
+            "startTimestamp": "2025-10-08T07:18:32Z",
+            "endTimestamp": "2025-10-08T07:20:02Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 7,
+          "isStart": false,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "169af318-06b4-4c7b-a1ec-ba77545d3b3c",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9960820205",
+            "callee": "9869803642",
+            "duration": "140",
+            "startTimestamp": "2025-10-20T05:53:07Z",
+            "endTimestamp": "2025-10-20T05:55:27Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 12,
+          "isStart": true,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "169af318-06b4-4c7b-a1ec-ba77545d3b3c",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9960820205",
+            "callee": "9869803642",
+            "duration": "140",
+            "startTimestamp": "2025-10-20T05:53:07Z",
+            "endTimestamp": "2025-10-20T05:55:27Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 12,
+          "isStart": false,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "3a94f45d-1bf9-493d-a051-cb9fb0a62e20",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9869803640",
+            "callee": "9960820205",
+            "duration": "108",
+            "startTimestamp": "2025-10-21T12:51:55Z",
+            "endTimestamp": "2025-10-21T12:53:43Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 13,
+          "isStart": true,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "3a94f45d-1bf9-493d-a051-cb9fb0a62e20",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9869803640",
+            "callee": "9960820205",
+            "duration": "108",
+            "startTimestamp": "2025-10-21T12:51:55Z",
+            "endTimestamp": "2025-10-21T12:53:43Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 13,
+          "isStart": false,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "a30a6c05-836f-48e6-b2bc-afe2ab6270b9",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9960820205",
+            "callee": "9869803642",
+            "duration": "109",
+            "startTimestamp": "2025-10-22T01:39:29Z",
+            "endTimestamp": "2025-10-22T01:41:18Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 14,
+          "isStart": true,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "a30a6c05-836f-48e6-b2bc-afe2ab6270b9",
+            "start_lat": 18.564154,
+            "start_lng": 73.807065,
+            "end_lat": 18.564154,
+            "end_lng": 73.807065,
+            "caller": "9960820205",
+            "callee": "9869803642",
+            "duration": "109",
+            "startTimestamp": "2025-10-22T01:39:29Z",
+            "endTimestamp": "2025-10-22T01:41:18Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 14,
+          "isStart": false,
+          "position": [18.564154, 73.807065],
+          "isActive": false
+        }
+      ],
+      "count": 14
+    },
+    {
+      "position": [18.555808, 73.794663],
+      "markers": [
+        {
+          "record": {
+            "callUID": "0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8",
+            "start_lat": 18.555808,
+            "start_lng": 73.794663,
+            "end_lat": 18.555808,
+            "end_lng": 73.794663,
+            "caller": "9960820205",
+            "callee": "9869803646",
+            "duration": "52",
+            "startTimestamp": "2025-10-08T07:10:41Z",
+            "endTimestamp": "2025-10-08T07:11:33Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 3,
+          "isStart": true,
+          "position": [18.555808, 73.794663],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8",
+            "start_lat": 18.555808,
+            "start_lng": 73.794663,
+            "end_lat": 18.555808,
+            "end_lng": 73.794663,
+            "caller": "9960820205",
+            "callee": "9869803646",
+            "duration": "52",
+            "startTimestamp": "2025-10-08T07:10:41Z",
+            "endTimestamp": "2025-10-08T07:11:33Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 3,
+          "isStart": false,
+          "position": [18.555808, 73.794663],
+          "isActive": false
+        }
+      ],
+      "count": 2
+    },
+    {
+      "position": [18.527008, 73.743563],
+      "markers": [
+        {
+          "record": {
+            "callUID": "ceb20bb2-2771-4cd2-aeb3-95b9cc1739af",
+            "start_lat": 18.527008,
+            "start_lng": 73.743563,
+            "end_lat": 18.527008,
+            "end_lng": 73.743563,
+            "caller": "9869803647",
+            "callee": "9960820205",
+            "duration": "44",
+            "startTimestamp": "2025-10-08T07:13:56Z",
+            "endTimestamp": "2025-10-08T07:14:40Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 4,
+          "isStart": true,
+          "position": [18.527008, 73.743563],
+          "isActive": false
+        },
+        {
+          "record": {
+            "callUID": "ceb20bb2-2771-4cd2-aeb3-95b9cc1739af",
+            "start_lat": 18.527008,
+            "start_lng": 73.743563,
+            "end_lat": 18.527008,
+            "end_lng": 73.743563,
+            "caller": "9869803647",
+            "callee": "9960820205",
+            "duration": "44",
+            "startTimestamp": "2025-10-08T07:13:56Z",
+            "endTimestamp": "2025-10-08T07:14:40Z",
+            "direction": "outgoing",
+            "sourceType": "Call"
+          },
+          "index": 4,
+          "isStart": false,
+          "position": [18.527008, 73.743563],
+          "isActive": false
+        }
+      ],
+      "count": 2
+    }
+  ]
+}
