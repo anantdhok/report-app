@@ -1,0 +1,23 @@
+<% if (table && table.headers && table.rows && table.rows.length) { %>
+  <div class="section">
+    <div class="section-title">Details</div>
+    <table>
+      <thead>
+        <tr>
+          <% table.headers.forEach(function(h) { %>
+            <th><%= h %></th>
+          <% }); %>
+        </tr>
+      </thead>
+      <tbody>
+        <% table.rows.forEach(function(row) { %>
+          <tr>
+            <% row.forEach(function(cell) { %>
+              <td><%= cell %></td>
+            <% }); %>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+<% } %>

@@ -1,0 +1,3 @@
+{
+  "/api/enqueue-pdf/route": "app/api/enqueue-pdf/route.js"
+}

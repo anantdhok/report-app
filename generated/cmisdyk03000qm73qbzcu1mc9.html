@@ -1,0 +1,2878 @@
+Report.ejs(new code)<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Full JSON Report - Akhmal (9960820205)</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #111827;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 32px;
+    }
+    .header {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .header h1 {
+      font-size: 24px;
+      color: #1e40af;
+      margin-bottom: 4px;
+    }
+    .header p {
+      font-size: 11px;
+      color: #6b7280;
+    }
+    .chips {
+      margin: 12px 0 20px;
+    }
+    .chip {
+      display: inline-block;
+      padding: 3px 8px;
+      margin: 2px 4px 2px 0;
+      border-radius: 10px;
+      background: #e0f2fe;
+      color: #0369a1;
+      font-size: 10px;
+    }
+    .stats {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+      font-size: 11px;
+    }
+    .stat-box {
+      flex: 1;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 4px;
+      padding: 8px 10px;
+    }
+    .stat-label {
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 10px;
+    }
+    .stat-value {
+      font-weight: 600;
+      color: #1e3a8a;
+      margin-top: 2px;
+      font-size: 14px;
+    }
+    .section-title {
+      margin: 18px 0 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1e40af;
+    }
+    .json-block {
+      background: #020617;
+      color: #e5e7eb;
+      padding: 16px;
+      border-radius: 4px;
+      border: 1px solid #111827;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 10px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.4;
+    }
+    .footer {
+      margin-top: 24px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 8px;
+      font-size: 9px;
+      color: #9ca3af;
+      text-align: center;
+    }
+    .page-break {
+      page-break-after: always;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Full JSON Report - Akhmal (9960820205)</h1>
+      <p>
+        Generated at:
+        12/5/2025, 10:19:52 AM
+      </p>
+    </div>
+
+    <div class="stats">
+      <div class="stat-box">
+        <div class="stat-label">Total Calls</div>
+        <div class="stat-value">9</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Total SMS</div>
+        <div class="stat-value">6</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Top-level Keys</div>
+        <div class="stat-value">12</div>
+      </div>
+    </div>
+
+    <div class="section-title">Data Sections Present</div>
+    <div class="chips">
+      
+        <span class="chip">target</span>
+      
+        <span class="chip">callRecords</span>
+      
+        <span class="chip">smsRecords</span>
+      
+        <span class="chip">targetVocabulary</span>
+      
+        <span class="chip">matchedKeywords</span>
+      
+        <span class="chip">comments</span>
+      
+        <span class="chip">locators</span>
+      
+        <span class="chip">link</span>
+      
+        <span class="chip">supportlink</span>
+      
+        <span class="chip">generatedAt</span>
+      
+        <span class="chip">reportMetadata</span>
+      
+        <span class="chip">clusteredMarkers</span>
+      
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="section-title">Complete Raw JSON (data.json)</div>
+    <p style="font-size: 11px; color: #6b7280; margin-bottom: 6px;">
+      Full unmodified JSON with all nested fields, arrays and values.
+    </p>
+    <div class="json-block">
+      {
+  &#34;target&#34;: {
+    &#34;id&#34;: &#34;b2394eb7-fc11-4056-8e99-d4a4cadc436e&#34;,
+    &#34;code&#34;: &#34;TGT9960820205&#34;,
+    &#34;targetNumber&#34;: &#34;9960820205&#34;,
+    &#34;fullName&#34;: &#34;Akhmal&#34;,
+    &#34;aliases&#34;: [
+      &#34;Bhai&#34;
+    ],
+    &#34;category&#34;: [
+      &#34;Recruitment&#34;,
+      &#34;Narcotics&#34;
+    ],
+    &#34;description&#34;: &#34;Operating in Maharashtra&#34;,
+    &#34;userDetails&#34;: [],
+    &#34;riskPriority&#34;: [
+      {
+        &#34;uuid&#34;: &#34;&#34;,
+        &#34;value&#34;: &#34;&#34;
+      }
+    ],
+    &#34;organisations&#34;: [],
+    &#34;address&#34;: {},
+    &#34;isMarked&#34;: false,
+    &#34;createdAt&#34;: &#34;2025-10-29T12:24:09.999993Z&#34;,
+    &#34;createdBy&#34;: &#34;00000000-0000-0000-0000-000000000000&#34;,
+    &#34;updatedAt&#34;: &#34;2025-10-29T12:31:23.324532Z&#34;,
+    &#34;updatedBy&#34;: &#34;48f6c767-6ab5-4aa2-ae26-f2aab170ca99&#34;,
+    &#34;isActive&#34;: true,
+    &#34;fileCount&#34;: 15,
+    &#34;criticalFileCount&#34;: 12,
+    &#34;filteredFileCount&#34;: 15,
+    &#34;filteredCriticalFileCount&#34;: 12,
+    &#34;callCount&#34;: 0,
+    &#34;criticalCallCount&#34;: 0,
+    &#34;smsCount&#34;: 0,
+    &#34;criticalSMSCount&#34;: 0
+  },
+  &#34;callRecords&#34;: [
+    {
+      &#34;id&#34;: &#34;0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-08T07:10:41Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;5b5fe700-2791-4892-ad53-0bee86e95aa7&#34;,
+          &#34;value&#34;: &#34;OUTGOING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;The call discusses a security concern regarding agencies exploiting individuals, particularly young people, through online surveys offered in the guise of social media companies. These agencies collect personal information like pictures and location data, potentially using it against the country and its cities. The call also questions the legitimacy and potential harm caused by these agencies&#39; charges and activities, highlighting a failure to connect and respond via the caller&#39;s number. The mention of &#39;Khan&#39; and &#39;Holi&#39; appears contextually unrelated and likely represents misinterpreted speech-to-text.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-08T07:11:33Z&#34;,
+      &#34;callerNumber&#34;: &#34;9960820205&#34;,
+      &#34;calleeNumber&#34;: &#34;9869803646&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.020674Z&#34;,
+      &#34;createdBy&#34;: &#34;0d32126c-151b-45ed-9a49-3d788ac1b793&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T12:27:42.607681Z&#34;,
+      &#34;updatedBy&#34;: &#34;cbe62e72-8afd-4c64-8fef-866207a281f9&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/5f841e47-5c01-4ba9-a0ca-83dbeb2b2611&#34;,
+      &#34;fileName&#34;: &#34;08102025-124041.27203701.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;army&#34;,
+          &#34;referencePhrase&#34;: &#34;army&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;holi&#34;,
+          &#34;referencePhrase&#34;: &#34;Holi&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;ORGANIZATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;social media platform companies&#34;
+              },
+              {
+                &#34;value&#34;: &#34;army&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Khan&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;COUNTRY&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;mulk&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;shaharon&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;EVENTS&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Holi&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.555808&#34;,
+        &#34;longitude&#34;: &#34;73.794663&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.555808&#34;,
+        &#34;longitude&#34;: &#34;73.794663&#34;
+      }
+    },
+    {
+      &#34;id&#34;: &#34;14ac15ce-5ea3-4710-bf28-b9388870d98a&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-08T07:17:40Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;6aacaec3-6b25-492e-8558-097078417aea&#34;,
+          &#34;value&#34;: &#34;INCOMING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;The call centers around a warning about enemy intelligence agencies recruiting youth online – particularly through platforms using the name &#39;Kangla&#39; – to gather sensitive information regarding national plans and infrastructure. The warning emphasizes this activity is a threat to national security and citizens. The remainder of the call consists of disjointed, seemingly unrelated personal conversation regarding travel to Ranchi (specifically, Kapil Store), bicycle repairs, and work schedules, indicating a possible interruption or shift in focus after the initial warning.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-08T07:20:21Z&#34;,
+      &#34;callerNumber&#34;: &#34;9869803642&#34;,
+      &#34;calleeNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.044013Z&#34;,
+      &#34;createdBy&#34;: &#34;4f128102-79bc-4471-9a10-6efe5506d26e&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T13:14:42.072473Z&#34;,
+      &#34;updatedBy&#34;: &#34;5856a3e0-b290-4f65-bc31-f9ad3aeb75b0&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/46fa269a-59ae-4f37-b58b-912f15febf95&#34;,
+      &#34;fileName&#34;: &#34;08102025-124740.27215606.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;stand&#34;,
+          &#34;referencePhrase&#34;: &#34;stand&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;raat&#34;,
+          &#34;referencePhrase&#34;: &#34;raat&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;chutti&#34;,
+          &#34;referencePhrase&#34;: &#34;chuti&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Ranchi&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Fasaad&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;ORGANIZATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Kapil Store&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Kangla&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      }
+    },
+    {
+      &#34;id&#34;: &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-20T05:53:07Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;5b5fe700-2791-4892-ad53-0bee86e95aa7&#34;,
+          &#34;value&#34;: &#34;OUTGOING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;This call revolves around coordinating a meeting with several individuals, including &#39;Mujur,&#39; &#39;Sahab,&#39; &#39;Taiyu sir,&#39; and &#39;Alam.&#39; The initial discussion touches on someone being scammed while trying to quickly double their money. The core of the conversation focuses on logistics – arranging a series of visits, starting with someone at a nursing home (&#39;they were scared and came to the nursing home&#39;) and then moving to locations like &#39;the mill&#39; and a teacher&#39;s location near &#39;Karbala shop.&#39; Lunch is planned around 11:30 AM, preceded by breakfast at 9:00 AM. \n\nThe group plans to meet near &#39;uncle&#39;s fertilizer&#39; within five minutes, with &#39;Shab&#39; currently near &#39;Rins.&#39; Practical concerns like helmets are addressed, confirming everything needed is readily available. The call establishes a plan for multiple meetings and site visits within the day.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-20T05:55:27Z&#34;,
+      &#34;callerNumber&#34;: &#34;9960820205&#34;,
+      &#34;calleeNumber&#34;: &#34;9869803642&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T14:47:41.848856Z&#34;,
+      &#34;createdBy&#34;: &#34;4dc7bbd7-e29a-4bdf-addf-64935888b5c6&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-30T07:25:09.489302Z&#34;,
+      &#34;updatedBy&#34;: &#34;52cc7f32-a476-4668-91f7-a1cf022be73f&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/5fdb7015-b11c-4974-955f-541f3cb8a90b/d16fa7bc-562f-4e86-bff1-06244cb58ffc&#34;,
+      &#34;fileName&#34;: &#34;112788721-11-301944-3-17-20250622-112307.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;nashta&#34;,
+          &#34;referencePhrase&#34;: &#34;nashta&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;teacher&#34;,
+          &#34;referencePhrase&#34;: &#34;teacher&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;MEDIUM&#34;,
+          &#34;labelUuid&#34;: &#34;8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;paise&#34;,
+          &#34;referencePhrase&#34;: &#34;paise&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;MEDIUM&#34;,
+          &#34;labelUuid&#34;: &#34;8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a&#34;
+        }
+      ],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;sahab&#34;,
+          &#34;referencePhrase&#34;: &#34;sahab&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Alam&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Mujur&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Rins&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Sahab&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Shab&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Taiyu&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;TIME&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;eleven-thirty&#34;
+              },
+              {
+                &#34;value&#34;: &#34;five minutes&#34;
+              },
+              {
+                &#34;value&#34;: &#34;nine&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Karbala&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;CURRENCY&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;crore rupaye&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      },
+      &#34;comments&#34;: [
+        {
+          &#34;comment_id&#34;: &#34;e02f4e3a-9a96-475b-be6e-daac12ba59aa&#34;,
+          &#34;comment_type&#34;: &#34;call&#34;,
+          &#34;record_id&#34;: &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;,
+          &#34;target_id&#34;: &#34;b2394eb7-fc11-4056-8e99-d4a4cadc436e&#34;,
+          &#34;content&#34;: &#34;First comment&#34;,
+          &#34;user_id&#34;: &#34;user-123&#34;,
+          &#34;user_name&#34;: &#34;Jane Doe&#34;,
+          &#34;created_at&#34;: &#34;2025-10-30T09:49:46.355Z&#34;,
+          &#34;updated_at&#34;: null
+        }
+      ]
+    },
+    {
+      &#34;id&#34;: &#34;353b230c-cd7a-4c91-9d1c-c47ef81e4999&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-08T07:18:32Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;6aacaec3-6b25-492e-8558-097078417aea&#34;,
+          &#34;value&#34;: &#34;INCOMING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;This call involves coordinating a meeting or visit, potentially involving \&#34;SP Shiv\&#34; and someone referred to as \&#34;eighteen sir.\&#34; The speakers are attempting to locate \&#34;eighteen sir\&#34; and determine his current whereabouts, noting he was recently at Khar Morada and had something installed \&#34;above\&#34; yesterday, possibly related to his \&#34;in-law&#39;s circle.\&#34; There&#39;s a request for \&#34;two from HPCC\&#34; which are expected to arrive. The conversation also touches upon difficulties in tracking his location and a preference for conducting activities \&#34;at our home.\&#34;&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-08T07:20:02Z&#34;,
+      &#34;callerNumber&#34;: &#34;9869803642&#34;,
+      &#34;calleeNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.050986Z&#34;,
+      &#34;createdBy&#34;: &#34;2dfc7111-6aad-4923-8df0-e39e53736722&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T13:12:26.235736Z&#34;,
+      &#34;updatedBy&#34;: &#34;90232b59-1436-466f-993f-e53c42c6d18b&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/03e5b00e-2b13-4263-a6c3-b006dab405b7&#34;,
+      &#34;fileName&#34;: &#34;08102025-124832.27219915.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;sahab&#34;,
+          &#34;referencePhrase&#34;: &#34;sahab&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;ORGANIZATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;HPCC&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;SP Shiv&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Khar Morada&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      }
+    },
+    {
+      &#34;id&#34;: &#34;3a94f45d-1bf9-493d-a051-cb9fb0a62e20&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-21T12:51:55Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;6aacaec3-6b25-492e-8558-097078417aea&#34;,
+          &#34;value&#34;: &#34;INCOMING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;dc452157-201b-47d9-9928-d3158bb10d42&#34;,
+          &#34;value&#34;: &#34;MEDIUM&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;This call centers around resolving issues related to a broken phone and ensuring a child&#39;s education isn&#39;t disrupted. The speaker requests someone turn a car around and deliver it from &#39;the other side,&#39; offering to cover any extra costs to demonstrate responsibility to the child’s parents. A significant point of contention is delayed funding – potentially impacting the education of 1525 children – with the speaker accusing the other party of deflecting responsibility and wasting time. \n\nThe conversation also touches upon weather conditions (heavy rain in the speaker’s location, potentially in Ranchi), and a request to be reminded about a fee and ensure the child is properly seated (likely in a class). The speaker concludes by asking for a religious invocation (&#39;Dismilllah&#39;) for success tomorrow.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-21T12:53:43Z&#34;,
+      &#34;callerNumber&#34;: &#34;9869803640&#34;,
+      &#34;calleeNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T14:47:41.842213Z&#34;,
+      &#34;createdBy&#34;: &#34;81d4221d-b38d-4f5b-a8a5-46db863205f7&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-30T03:32:04.500576Z&#34;,
+      &#34;updatedBy&#34;: &#34;3843d759-22cc-4671-a60c-16ea30231a7b&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/5fdb7015-b11c-4974-955f-541f3cb8a90b/987b90d5-908b-4ae8-a2db-683cdb822a6f&#34;,
+      &#34;fileName&#34;: &#34;112824163-11-301944-3-11-20250622-182155.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;bachche&#34;,
+          &#34;referencePhrase&#34;: &#34;bacche&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;LOW&#34;,
+          &#34;labelUuid&#34;: &#34;4491c44f-d4a0-465f-8e3c-1d57d9e0c8bf&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;padhai&#34;,
+          &#34;referencePhrase&#34;: &#34;padhai&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;fees&#34;,
+          &#34;referencePhrase&#34;: &#34;fees&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;MEDIUM&#34;,
+          &#34;labelUuid&#34;: &#34;8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a&#34;
+        }
+      ],
+      &#34;globalKeywords&#34;: [],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Ranchi&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Sissner&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;EVENTS&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Dismilllah&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Inshallah&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      }
+    },
+    {
+      &#34;id&#34;: &#34;73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-08T07:15:07Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;5b5fe700-2791-4892-ad53-0bee86e95aa7&#34;,
+          &#34;value&#34;: &#34;OUTGOING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;This conversation centers around recent intelligence regarding &#39;Mui,&#39; who, along with associated agencies, is recruiting young people through online job scams on social media. The discussion then shifts to logistical details and personal matters. Individuals named Usman and &#39;Dada&#39; visited Amarpur, and there&#39;s mention of a car and an unrecognized phone number. A lost wallet containing cash and a card was reported, with reluctance to file a police report due to perceived inaction. There is also talk of a local head of the locality traveling and preparations being made for visitors, including decorations and refreshments. A request from &#39;Marwari&#39; for a letter is mentioned, prompting a need to consult with a husband. Finally, there is discussion of a 700 rupee discount and greetings being exchanged.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-08T07:19:18Z&#34;,
+      &#34;callerNumber&#34;: &#34;9960820205&#34;,
+      &#34;calleeNumber&#34;: &#34;9869803642&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.036596Z&#34;,
+      &#34;createdBy&#34;: &#34;ced14e8e-cd21-4d82-be9b-21f0c37f2a3d&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T13:13:03.91059Z&#34;,
+      &#34;updatedBy&#34;: &#34;f3a5d3a4-8f2c-4e0d-8a29-2fc801c75068&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/bb8e9353-d9a9-4604-8d55-cd65555582b8&#34;,
+      &#34;fileName&#34;: &#34;08102025-124507.27211159.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;raat&#34;,
+          &#34;referencePhrase&#34;: &#34;raat&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;sahab,&#34;,
+          &#34;referencePhrase&#34;: &#34;sahab&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Marwari&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Mui&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Usman&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Amarpur&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;CURRENCY&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;seven hundred rupees&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      }
+    },
+    {
+      &#34;id&#34;: &#34;a30a6c05-836f-48e6-b2bc-afe2ab6270b9&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-22T01:39:29Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;5b5fe700-2791-4892-ad53-0bee86e95aa7&#34;,
+          &#34;value&#34;: &#34;OUTGOING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;This call revolves around confirming someone&#39;s attendance and addressing concerns about their health and work performance. The individual was previously instructed to call before coming to school/work, and there was confusion regarding whether or not they were coming. Despite initial hesitancy and claims of illness, the individual ultimately confirms they are coming and will be ready within ten minutes. A significant portion of the conversation focuses on the individual&#39;s tendency to make excuses and their perceived need for support (&#39;two people with them&#39;) which is viewed negatively. There&#39;s mention of a prior report regarding measurements taken, and a directive to inform Sanial Ma&#39;am. The caller emphasizes their willingness to work with the individual but expresses frustration with their behavior and excuses.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-22T01:41:18Z&#34;,
+      &#34;callerNumber&#34;: &#34;9960820205&#34;,
+      &#34;calleeNumber&#34;: &#34;9869803642&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T14:47:41.830293Z&#34;,
+      &#34;createdBy&#34;: &#34;43f66b3c-e608-4027-86ce-1f48bf9c9c4f&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-30T10:23:54.182995Z&#34;,
+      &#34;updatedBy&#34;: &#34;d8a0b305-011f-46c0-9b04-282ab21f5137&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/5fdb7015-b11c-4974-955f-541f3cb8a90b/ead35afa-bd33-4040-a18b-dc11b6c0a34f&#34;,
+      &#34;fileName&#34;: &#34;112863950-11-301944-0-27-20250623-070929.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;school&#34;,
+          &#34;referencePhrase&#34;: &#34;school&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;raat&#34;,
+          &#34;referencePhrase&#34;: &#34;raat&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;sahab&#34;,
+          &#34;referencePhrase&#34;: &#34;sahab&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;fitting&#34;,
+          &#34;referencePhrase&#34;: &#34;fitting&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Mahfuz Sahab&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Sanial Ma&#39;am&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564154&#34;,
+        &#34;longitude&#34;: &#34;73.807065&#34;
+      }
+    },
+    {
+      &#34;id&#34;: &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-08T06:39:14Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;6aacaec3-6b25-492e-8558-097078417aea&#34;,
+          &#34;value&#34;: &#34;INCOMING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;This lengthy call is a fragmented and rambling conversation among family members, touching upon a wide array of personal concerns, daily life updates, and anxieties. Health is a central theme, with discussions about a grandfather’s fever potentially requiring hospitalization, Jasi and Chearia’s recoveries, concerns about a possible malaria outbreak, and the ailing health of an unnamed individual experiencing digestive issues and reluctance to take medication – raising worries serious enough to mention a ‘post-mortem’ in passing. Numerous family members are referenced (Salma, Shahid, Sadia, Laasha’s mother, Ali, Sasha, Jafar, and ‘Dubai people’), along with updates on their well-being and activities. Alongside health, there&#39;s significant discussion regarding a pending wedding, its associated financial burdens (and a mother&#39;s reluctance to contribute), and anxieties about it proceeding correctly.\n\nBeyond immediate family matters, the conversation veers into financial struggles, land acquisition issues (&#39;Igalo plot&#39;, fluctuating prices), and work-related difficulties. Numan’s recent job transition after eight months is discussed, as is Nasir uncle’s retirement and pension. Speakers express frustration with bureaucratic processes involving &#39;papers&#39; and a perceived lack of progress over a two-year period. Everyday occurrences are interspersed throughout – meal preparation (noodles, macaroni, mughlai cuisine), minor household tasks (dirty stove, bike repair), recent visits (Niccola, Panchi, Salma, Maami’s trip to Kashmir), and inquiries about local events. A sense of unease permeates the discussion, linked to potential criminal activity at a school and concerns about &#39;Corona&#39;.\n\nThroughout the call, participants offer advice, share updates, and express religious sentiments (‘Alhamdulillah,’ prayers) regarding hope for recovery and favorable outcomes. The discussion is characterized by frequent interruptions, shifts in subject matter, and a general feeling of things &#39;not working out,&#39; illustrating a complex web of family dynamics, differing opinions, and persistent challenges. Requests for assistance, such as inquiries about fertilizer and deliveries, are woven into the broader tapestry of anxieties and everyday routines, resulting in a comprehensive yet disjointed portrayal of family life.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-08T07:14:50Z&#34;,
+      &#34;callerNumber&#34;: &#34;9869803646&#34;,
+      &#34;calleeNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.0052Z&#34;,
+      &#34;createdBy&#34;: &#34;02996323-294d-421f-a190-b9e5ccd0a91b&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T13:12:01.897077Z&#34;,
+      &#34;updatedBy&#34;: &#34;27402e6a-2941-43de-91d8-0a75c0b7f733&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/422ac267-f709-4481-8d90-c8ec8ed73b08&#34;,
+      &#34;fileName&#34;: &#34;08102025-120914.27152060.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;raat&#34;,
+          &#34;referencePhrase&#34;: &#34;raat&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;gali&#34;,
+          &#34;referencePhrase&#34;: &#34;gali&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;isi&#34;,
+          &#34;referencePhrase&#34;: &#34;isi&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;chutti&#34;,
+          &#34;referencePhrase&#34;: &#34;chuti&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;kashmir&#34;,
+          &#34;referencePhrase&#34;: &#34;Kashmir&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;side&#34;,
+          &#34;referencePhrase&#34;: &#34;side&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;un&#34;,
+          &#34;referencePhrase&#34;: &#34;un&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;sahab,&#34;,
+          &#34;referencePhrase&#34;: &#34;sahab&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;khatam&#34;,
+          &#34;referencePhrase&#34;: &#34;khatam&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;banda&#34;,
+          &#34;referencePhrase&#34;: &#34;banday&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        },
+        {
+          &#34;phrase&#34;: &#34;mehmaan&#34;,
+          &#34;referencePhrase&#34;: &#34;mehman&#34;,
+          &#34;language&#34;: &#34;Hindi&#34;,
+          &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Salman&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Suaa&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Allah&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Asad&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Maria&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Salma Dani&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Nadahal&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Badahal&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Dubai&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Kalawa&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;EVENTS&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Corona&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564164&#34;,
+        &#34;longitude&#34;: &#34;73.807086&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.564164&#34;,
+        &#34;longitude&#34;: &#34;73.807086&#34;
+      }
+    },
+    {
+      &#34;id&#34;: &#34;ceb20bb2-2771-4cd2-aeb3-95b9cc1739af&#34;,
+      &#34;callDatetime&#34;: &#34;2025-10-08T07:13:56Z&#34;,
+      &#34;duration&#34;: 0,
+      &#34;callType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;6aacaec3-6b25-492e-8558-097078417aea&#34;,
+          &#34;value&#34;: &#34;INCOMING&#34;
+        }
+      ],
+      &#34;category&#34;: [],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;summary&#34;: &#34;This communication appears to be instructions given during a potentially chaotic situation, likely involving a group of people. Individuals are being directed to move aside, specifically those connected to &#39;Luvy&#39;s abuses&#39; and those from &#39;the excavation town&#39;. A numerical value, &#39;Three thousand six hundred and fifteen&#39;, is mentioned alongside the phrase &#39;today&#39;s black&#39;, possibly referencing a code, identifier, or a negative event occurring on that day. The initial phrases suggest a possible attempt to contact an agency and a question about tardiness.&#34;,
+      &#34;callReadStatus&#34;: &#34;eeadcc43-de9f-4a4a-adf9-00a8fb6fb934&#34;,
+      &#34;callEndtime&#34;: &#34;2025-10-08T07:14:40Z&#34;,
+      &#34;callerNumber&#34;: &#34;9869803647&#34;,
+      &#34;calleeNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.028703Z&#34;,
+      &#34;createdBy&#34;: &#34;456cb9d3-6715-4a68-800d-fa4819f700b2&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T13:14:25.992699Z&#34;,
+      &#34;updatedBy&#34;: &#34;48535d02-5eaf-4dfc-8b48-4e1e9646c3b6&#34;,
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/e92ec747-b958-4bd4-a972-d3e98d8499bc&#34;,
+      &#34;fileName&#34;: &#34;08102025-124356.27209145.wav&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;speakers&#34;: [
+        &#34;speaker_0&#34;,
+        &#34;speaker_1&#34;
+      ],
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        {
+          &#34;phrase&#34;: &#34;side&#34;,
+          &#34;referencePhrase&#34;: &#34;side&#34;,
+          &#34;language&#34;: &#34;English&#34;,
+          &#34;languageUuid&#34;: &#34;afe98819-1e2c-4386-a6eb-83d2ca2e042e&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;
+        }
+      ],
+      &#34;callEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Luvy&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;TIME&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Three thousand six hundred and fifteen&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;ORGANIZATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Agency&#34;
+              }
+            ]
+          }
+        ]
+      },
+      &#34;startLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.527008&#34;,
+        &#34;longitude&#34;: &#34;73.743563&#34;
+      },
+      &#34;endLocation&#34;: {
+        &#34;latitude&#34;: &#34;18.527008&#34;,
+        &#34;longitude&#34;: &#34;73.743563&#34;
+      }
+    }
+  ],
+  &#34;smsRecords&#34;: [
+    {
+      &#34;id&#34;: &#34;1e2318ca-80df-4130-8e83-f8ca889697ec&#34;,
+      &#34;smsDatetime&#34;: &#34;2025-10-09T04:51:09Z&#34;,
+      &#34;category&#34;: [
+        {
+          &#34;uuid&#34;: &#34;87b91e9e-119d-4d1a-9e53-4074c3601467&#34;,
+          &#34;value&#34;: &#34;FINANCIAL&#34;
+        }
+      ],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;e4d8e241-e743-42bd-b9d7-c4649ccdd507&#34;,
+          &#34;value&#34;: &#34;LOW&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;message&#34;: &#34;INR 232.00 debited A/c no. XX7879\r\n04-10-25, 15:13:22\r\nUPI/P2A/527717520574/Mr SUNIL BABUSHA KA\r\nNot you? SMS BLOCKUPI Cust ID to 919951860002\r\nAxis Bank&#34;,
+      &#34;senderNumber&#34;: &#34;AD-AXISBK-S&#34;,
+      &#34;receiverNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.665676Z&#34;,
+      &#34;createdBy&#34;: &#34;0f6dd23a-57d9-4ae5-9ec3-33d03ffe3813&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T13:56:18.606884Z&#34;,
+      &#34;updatedBy&#34;: &#34;1304a685-ef91-413a-9e25-0d8531466f63&#34;,
+      &#34;summary&#34;: &#34;&#34;,
+      &#34;smsType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;87b91e9e-119d-4d1a-9e53-4074c3601467&#34;,
+          &#34;value&#34;: &#34;FINANCIAL&#34;
+        }
+      ],
+      &#34;language&#34;: null,
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [],
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/e5649626-73d6-43c1-b19a-4f553c6b2ed6&#34;,
+      &#34;fileName&#34;: &#34;114259644.txt&#34;,
+      &#34;smsReadStatus&#34;: &#34;1c128ef8-545b-40c2-b734-dc1459d1b4d2&#34;,
+      &#34;smsEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;PHONE NUMBER&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;919951860002&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;TIME&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;04-10-25&#34;
+              },
+              {
+                &#34;value&#34;: &#34;15:13:22&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;FINANCIAL_ENTITIES&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Axis Bank&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;CURRENCY&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;INR&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;ACCOUNT NUMBER&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;XX7879&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;PERSON&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;SUNIL BABUSHA KA&#34;
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      &#34;id&#34;: &#34;2a075824-3138-454f-8cee-f049d8197718&#34;,
+      &#34;smsDatetime&#34;: &#34;2025-10-08T05:51:09Z&#34;,
+      &#34;category&#34;: [
+        {
+          &#34;uuid&#34;: &#34;87b91e9e-119d-4d1a-9e53-4074c3601467&#34;,
+          &#34;value&#34;: &#34;FINANCIAL&#34;
+        }
+      ],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;message&#34;: &#34;Transaction Confirmation Alert: Your SIP Purchase of Rs.4,999.75 in Small Cap Fund - Reg - G (Folio ***777) has been processed for 08-Oct-2025 at NAV Rs.193.873. View your Smart Statement here. T&amp;C apply. - DSPMF&#34;,
+      &#34;senderNumber&#34;: &#34;AD-AXISBK-S&#34;,
+      &#34;receiverNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.653787Z&#34;,
+      &#34;createdBy&#34;: &#34;809da874-6afe-47ed-8b54-977dc420188f&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-30T07:28:23.596278Z&#34;,
+      &#34;updatedBy&#34;: &#34;c26b4986-cc13-4753-acb9-ea19300db02e&#34;,
+      &#34;summary&#34;: &#34;&#34;,
+      &#34;smsType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;87b91e9e-119d-4d1a-9e53-4074c3601467&#34;,
+          &#34;value&#34;: &#34;FINANCIAL&#34;
+        }
+      ],
+      &#34;language&#34;: null,
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        &#34;alert:&#34;
+      ],
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/4cab1a47-9a87-4a51-85a0-0168a4ac7236&#34;,
+      &#34;fileName&#34;: &#34;114259646.txt&#34;,
+      &#34;smsReadStatus&#34;: &#34;1c128ef8-545b-40c2-b734-dc1459d1b4d2&#34;,
+      &#34;smsEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;CURRENCY&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Rs.193.873&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Rs.4,999.75&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;TIME&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;08-Oct-2025&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;FINANCIAL_ENTITIES&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;DSPMF&#34;
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      &#34;id&#34;: &#34;705fe11b-0646-475c-81af-af1087cb351b&#34;,
+      &#34;smsDatetime&#34;: &#34;2025-10-08T09:53:13Z&#34;,
+      &#34;category&#34;: [
+        {
+          &#34;uuid&#34;: &#34;de42e051-10ce-4a86-a3cb-aaad9e8e4f18&#34;,
+          &#34;value&#34;: &#34;BUSINESS&#34;
+        }
+      ],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;message&#34;: &#34;Your Swiggy order#214820414675203 is confirmed. Complete payment here https://www.swiggy.com/track-order?orderId=214820414675203 or ask delivery partner for QR code&#34;,
+      &#34;senderNumber&#34;: &#34;TG-SWIG-VM&#34;,
+      &#34;receiverNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.645753Z&#34;,
+      &#34;createdBy&#34;: &#34;be2bb31c-1a45-40cf-8774-c4242f3471bf&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T12:24:10.66533Z&#34;,
+      &#34;updatedBy&#34;: &#34;00000000-0000-0000-0000-000000000000&#34;,
+      &#34;summary&#34;: &#34;&#34;,
+      &#34;smsType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;de42e051-10ce-4a86-a3cb-aaad9e8e4f18&#34;,
+          &#34;value&#34;: &#34;BUSINESS&#34;
+        }
+      ],
+      &#34;language&#34;: null,
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        &#34;code&#34;
+      ],
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/2b827d51-7277-4bd6-a9fd-ab922a920058&#34;,
+      &#34;fileName&#34;: &#34;114259642.txt&#34;,
+      &#34;smsReadStatus&#34;: &#34;a88bee72-a191-4bf4-bfe0-3a9db149cb99&#34;,
+      &#34;smsEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;ORGANIZATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Swiggy&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;VEHICLE NUMBER&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;214820414675203&#34;
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      &#34;id&#34;: &#34;756569a7-9191-4c3a-8328-d7889070c13d&#34;,
+      &#34;smsDatetime&#34;: &#34;2025-10-08T05:51:09Z&#34;,
+      &#34;category&#34;: [
+        {
+          &#34;uuid&#34;: &#34;87b91e9e-119d-4d1a-9e53-4074c3601467&#34;,
+          &#34;value&#34;: &#34;FINANCIAL&#34;
+        }
+      ],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;message&#34;: &#34;Transaction Confirmation Alert: Your SIP Purchase of Rs.4,999.75 in Small Cap Fund - Reg - G (Folio ***777) has been processed for 06-Oct-2025 at NAV Rs.193.873. View your Smart Statement here. T&amp;C apply. - DSPMF&#34;,
+      &#34;senderNumber&#34;: &#34;AD-AXISBK-S&#34;,
+      &#34;receiverNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.659872Z&#34;,
+      &#34;createdBy&#34;: &#34;fe2336b9-d7ec-4519-9c2e-b31955adbd72&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T12:24:10.697305Z&#34;,
+      &#34;updatedBy&#34;: &#34;00000000-0000-0000-0000-000000000000&#34;,
+      &#34;summary&#34;: &#34;&#34;,
+      &#34;smsType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;87b91e9e-119d-4d1a-9e53-4074c3601467&#34;,
+          &#34;value&#34;: &#34;FINANCIAL&#34;
+        }
+      ],
+      &#34;language&#34;: null,
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        &#34;alert:&#34;
+      ],
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/1c4fc4fe-ac71-41cd-9a10-8d3f50a8fb58&#34;,
+      &#34;fileName&#34;: &#34;114259645.txt&#34;,
+      &#34;smsReadStatus&#34;: &#34;a88bee72-a191-4bf4-bfe0-3a9db149cb99&#34;,
+      &#34;smsEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;TIME&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;06-Oct-2025&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;FINANCIAL_ENTITIES&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;DSPMF&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;CURRENCY&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Rs.193.873&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Rs.4,999.75&#34;
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      &#34;id&#34;: &#34;b5cbd66c-4553-4c49-a601-be05ae442116&#34;,
+      &#34;smsDatetime&#34;: &#34;2025-10-08T08:53:13Z&#34;,
+      &#34;category&#34;: [
+        {
+          &#34;uuid&#34;: &#34;b0b53e0f-4999-4c7c-bb8f-24400d5f41a6&#34;,
+          &#34;value&#34;: &#34;PERSONAL&#34;
+        }
+      ],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;e4d8e241-e743-42bd-b9d7-c4649ccdd507&#34;,
+          &#34;value&#34;: &#34;LOW&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;message&#34;: &#34;Sure. This month I am running short on funds. Laddu and Chai ki dawaat will be on you!&#34;,
+      &#34;senderNumber&#34;: &#34;9850841831&#34;,
+      &#34;receiverNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.6719Z&#34;,
+      &#34;createdBy&#34;: &#34;96fe9dd3-01ac-4dcc-8eb1-6b4847648c57&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T12:24:10.716659Z&#34;,
+      &#34;updatedBy&#34;: &#34;00000000-0000-0000-0000-000000000000&#34;,
+      &#34;summary&#34;: &#34;&#34;,
+      &#34;smsType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;b0b53e0f-4999-4c7c-bb8f-24400d5f41a6&#34;,
+          &#34;value&#34;: &#34;PERSONAL&#34;
+        }
+      ],
+      &#34;language&#34;: null,
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [],
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/21fa00ac-807a-41b3-9aa7-92a183bd8d45&#34;,
+      &#34;fileName&#34;: &#34;114259641.txt&#34;,
+      &#34;smsReadStatus&#34;: &#34;a88bee72-a191-4bf4-bfe0-3a9db149cb99&#34;,
+      &#34;smsEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;EVENTS&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;Chai&#34;
+              },
+              {
+                &#34;value&#34;: &#34;Laddu&#34;
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      &#34;id&#34;: &#34;d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb&#34;,
+      &#34;smsDatetime&#34;: &#34;2025-10-08T12:51:09Z&#34;,
+      &#34;category&#34;: [
+        {
+          &#34;uuid&#34;: &#34;80da6217-45fd-45db-826d-612985ef6742&#34;,
+          &#34;value&#34;: &#34;TRAVEL&#34;
+        }
+      ],
+      &#34;criticality&#34;: [
+        {
+          &#34;uuid&#34;: &#34;1a71088e-ebbf-4d43-ad39-beb4ef7f89f3&#34;,
+          &#34;value&#34;: &#34;HIGH&#34;
+        }
+      ],
+      &#34;comment&#34;: &#34;&#34;,
+      &#34;message&#34;: &#34;IndiGo: Dear IndiGo Customer, flight 6473 from PNQ  shall be boarding from gate 7. Boarding gate closes 25 mins prior to the departure time. Wish you a pleasant flight. Regards, IndiGo&#34;,
+      &#34;senderNumber&#34;: &#34;VM-IndiGo-S&#34;,
+      &#34;receiverNumber&#34;: &#34;9960820205&#34;,
+      &#34;isActive&#34;: true,
+      &#34;createdAt&#34;: &#34;2025-10-29T12:24:10.677642Z&#34;,
+      &#34;createdBy&#34;: &#34;9727cbec-1666-4833-b44d-9372a3355cab&#34;,
+      &#34;updatedAt&#34;: &#34;2025-10-29T12:24:10.732302Z&#34;,
+      &#34;updatedBy&#34;: &#34;00000000-0000-0000-0000-000000000000&#34;,
+      &#34;summary&#34;: &#34;&#34;,
+      &#34;smsType&#34;: [
+        {
+          &#34;uuid&#34;: &#34;80da6217-45fd-45db-826d-612985ef6742&#34;,
+          &#34;value&#34;: &#34;TRAVEL&#34;
+        }
+      ],
+      &#34;language&#34;: null,
+      &#34;targetKeywords&#34;: [],
+      &#34;globalKeywords&#34;: [
+        &#34;gate&#34;,
+        &#34;flight&#34;
+      ],
+      &#34;filePath&#34;: &#34;http://veritas:7020/v1/files/cbca9117-4a88-4ab1-9851-10d6a4d631d9/a748d5ca-6c22-4d4c-b0f2-9f757655bc1d/e9265de2-9706-4c69-b756-644333e5048a&#34;,
+      &#34;fileName&#34;: &#34;114259643.txt&#34;,
+      &#34;smsReadStatus&#34;: &#34;a88bee72-a191-4bf4-bfe0-3a9db149cb99&#34;,
+      &#34;smsEntities&#34;: {
+        &#34;Locator&#34;: [
+          {
+            &#34;type&#34;: &#34;ORGANIZATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;IndiGo&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;VEHICLE&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;6473&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;TIME&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;25 mins&#34;
+              }
+            ]
+          },
+          {
+            &#34;type&#34;: &#34;LOCATION&#34;,
+            &#34;words&#34;: [
+              {
+                &#34;value&#34;: &#34;PNQ&#34;
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  &#34;targetVocabulary&#34;: [
+    {
+      &#34;phrase&#34;: &#34;nashta&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;HIGH&#34;,
+      &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    },
+    {
+      &#34;phrase&#34;: &#34;teacher&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;MEDIUM&#34;,
+      &#34;labelUuid&#34;: &#34;8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    },
+    {
+      &#34;phrase&#34;: &#34;paise&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;MEDIUM&#34;,
+      &#34;labelUuid&#34;: &#34;8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    },
+    {
+      &#34;phrase&#34;: &#34;bacche&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;LOW&#34;,
+      &#34;labelUuid&#34;: &#34;4491c44f-d4a0-465f-8e3c-1d57d9e0c8bf&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    },
+    {
+      &#34;phrase&#34;: &#34;padhai&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;HIGH&#34;,
+      &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    },
+    {
+      &#34;phrase&#34;: &#34;school&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;HIGH&#34;,
+      &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    },
+    {
+      &#34;phrase&#34;: &#34;fees&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;MEDIUM&#34;,
+      &#34;labelUuid&#34;: &#34;8bcf3d92-bdae-49ad-aaf9-e54bc5603a6a&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    },
+    {
+      &#34;phrase&#34;: &#34;galti&#34;,
+      &#34;language&#34;: &#34;Hindi&#34;,
+      &#34;languageUuid&#34;: &#34;2026ce9b-068f-436a-bf6e-903dea85c0b0&#34;,
+      &#34;label&#34;: &#34;HIGH&#34;,
+      &#34;labelUuid&#34;: &#34;d6477452-f595-491d-89b5-0d6ac27980a3&#34;,
+      &#34;callCount&#34;: 0,
+      &#34;smsCount&#34;: 0,
+      &#34;totalCount&#34;: 0
+    }
+  ],
+  &#34;matchedKeywords&#34;: {
+    &#34;status&#34;: true,
+    &#34;data&#34;: {
+      &#34;matchedTargetKeywords&#34;: [
+        {
+          &#34;keyword&#34;: &#34;nashta&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;teacher&#34;,
+          &#34;label&#34;: &#34;MEDIUM&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;paise&#34;,
+          &#34;label&#34;: &#34;MEDIUM&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;bachche&#34;,
+          &#34;label&#34;: &#34;LOW&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;3a94f45d-1bf9-493d-a051-cb9fb0a62e20&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;padhai&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;3a94f45d-1bf9-493d-a051-cb9fb0a62e20&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;fees&#34;,
+          &#34;label&#34;: &#34;MEDIUM&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;3a94f45d-1bf9-493d-a051-cb9fb0a62e20&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;school&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;a30a6c05-836f-48e6-b2bc-afe2ab6270b9&#34;
+          ]
+        }
+      ],
+      &#34;matchedGlobalKeywords&#34;: [
+        {
+          &#34;keyword&#34;: &#34;army&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;holi&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;stand&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;14ac15ce-5ea3-4710-bf28-b9388870d98a&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;raat&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 4,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 4,
+          &#34;callUids&#34;: [
+            &#34;14ac15ce-5ea3-4710-bf28-b9388870d98a&#34;,
+            &#34;73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8&#34;,
+            &#34;a30a6c05-836f-48e6-b2bc-afe2ab6270b9&#34;,
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;chutti&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 2,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 2,
+          &#34;callUids&#34;: [
+            &#34;14ac15ce-5ea3-4710-bf28-b9388870d98a&#34;,
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;sahab&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 3,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 3,
+          &#34;callUids&#34;: [
+            &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;,
+            &#34;353b230c-cd7a-4c91-9d1c-c47ef81e4999&#34;,
+            &#34;a30a6c05-836f-48e6-b2bc-afe2ab6270b9&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;sahab,&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 2,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 2,
+          &#34;callUids&#34;: [
+            &#34;73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8&#34;,
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;fitting&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;a30a6c05-836f-48e6-b2bc-afe2ab6270b9&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;gali&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;isi&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;kashmir&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;side&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 2,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 2,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;,
+            &#34;ceb20bb2-2771-4cd2-aeb3-95b9cc1739af&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;un&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;khatam&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;banda&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;keyword&#34;: &#34;mehmaan&#34;,
+          &#34;label&#34;: &#34;HIGH&#34;,
+          &#34;callCount&#34;: 1,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 1,
+          &#34;callUids&#34;: [
+            &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;
+          ]
+        },
+        {
+          &#34;callCount&#34;: 5,
+          &#34;smsCount&#34;: 0,
+          &#34;totalCount&#34;: 5,
+          &#34;callUids&#34;: [
+            &#34;2a075824-3138-454f-8cee-f049d8197718&#34;,
+            &#34;705fe11b-0646-475c-81af-af1087cb351b&#34;,
+            &#34;756569a7-9191-4c3a-8328-d7889070c13d&#34;,
+            &#34;d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb&#34;,
+            &#34;d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb&#34;
+          ]
+        }
+      ]
+    }
+  },
+  &#34;comments&#34;: [
+    {
+      &#34;comment_id&#34;: &#34;e02f4e3a-9a96-475b-be6e-daac12ba59aa&#34;,
+      &#34;comment_type&#34;: &#34;call&#34;,
+      &#34;record_id&#34;: &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;,
+      &#34;target_id&#34;: &#34;b2394eb7-fc11-4056-8e99-d4a4cadc436e&#34;,
+      &#34;content&#34;: &#34;First comment&#34;,
+      &#34;user_id&#34;: &#34;user-123&#34;,
+      &#34;user_name&#34;: &#34;Jane Doe&#34;,
+      &#34;created_at&#34;: &#34;2025-10-30T09:49:46.355Z&#34;,
+      &#34;updated_at&#34;: null
+    }
+  ],
+  &#34;locators&#34;: [
+    {
+      &#34;type&#34;: &#34;ORGANIZATION&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;social media platform companies&#34;
+        },
+        {
+          &#34;value&#34;: &#34;army&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Kapil Store&#34;
+        },
+        {
+          &#34;value&#34;: &#34;HPCC&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Agency&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Swiggy&#34;
+        },
+        {
+          &#34;value&#34;: &#34;IndiGo&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;PERSON&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;Khan&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Kangla&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Alam&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Mujur&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Rins&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Sahab&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Shab&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Taiyu&#34;
+        },
+        {
+          &#34;value&#34;: &#34;SP Shiv&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Marwari&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Mui&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Usman&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Mahfuz Sahab&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Sanial Ma&#39;am&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Salman&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Suaa&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Allah&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Asad&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Maria&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Salma Dani&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Luvy&#34;
+        },
+        {
+          &#34;value&#34;: &#34;SUNIL BABUSHA KA&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;COUNTRY&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;mulk&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;LOCATION&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;shaharon&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Ranchi&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Fasaad&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Karbala&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Khar Morada&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Ranchi&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Sissner&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Amarpur&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Nadahal&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Badahal&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Dubai&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Kalawa&#34;
+        },
+        {
+          &#34;value&#34;: &#34;PNQ&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;EVENTS&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;Holi&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Dismilllah&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Inshallah&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Corona&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Chai&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Laddu&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;TIME&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;eleven-thirty&#34;
+        },
+        {
+          &#34;value&#34;: &#34;five minutes&#34;
+        },
+        {
+          &#34;value&#34;: &#34;nine&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Three thousand six hundred and fifteen&#34;
+        },
+        {
+          &#34;value&#34;: &#34;04-10-25&#34;
+        },
+        {
+          &#34;value&#34;: &#34;15:13:22&#34;
+        },
+        {
+          &#34;value&#34;: &#34;08-Oct-2025&#34;
+        },
+        {
+          &#34;value&#34;: &#34;06-Oct-2025&#34;
+        },
+        {
+          &#34;value&#34;: &#34;25 mins&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;CURRENCY&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;crore rupaye&#34;
+        },
+        {
+          &#34;value&#34;: &#34;seven hundred rupees&#34;
+        },
+        {
+          &#34;value&#34;: &#34;INR&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Rs.193.873&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Rs.4,999.75&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Rs.193.873&#34;
+        },
+        {
+          &#34;value&#34;: &#34;Rs.4,999.75&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;PHONE NUMBER&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;919951860002&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;FINANCIAL_ENTITIES&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;Axis Bank&#34;
+        },
+        {
+          &#34;value&#34;: &#34;DSPMF&#34;
+        },
+        {
+          &#34;value&#34;: &#34;DSPMF&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;ACCOUNT NUMBER&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;XX7879&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;VEHICLE NUMBER&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;214820414675203&#34;
+        }
+      ]
+    },
+    {
+      &#34;type&#34;: &#34;VEHICLE&#34;,
+      &#34;words&#34;: [
+        {
+          &#34;value&#34;: &#34;6473&#34;
+        }
+      ]
+    }
+  ],
+  &#34;link&#34;: &#34;http://localhost:3000/&#34;,
+  &#34;supportlink&#34;: &#34;hello@pi-labs.ai&#34;,
+  &#34;generatedAt&#34;: &#34;2025-11-13T12:00:34.069Z&#34;,
+  &#34;reportMetadata&#34;: {
+    &#34;totalCalls&#34;: 9,
+    &#34;totalSMS&#34;: 6,
+    &#34;criticalKeywords&#34;: 0,
+    &#34;highPriorityKeywords&#34;: 0,
+    &#34;entitiesFound&#34;: 72,
+    &#34;dateRange&#34;: {
+      &#34;from&#34;: &#34;2025-10-08T05:51:09Z&#34;,
+      &#34;to&#34;: &#34;2025-10-22T01:39:29Z&#34;
+    }
+  },
+  &#34;clusteredMarkers&#34;: [
+    {
+      &#34;position&#34;: [
+        18.551283,
+        73.790847
+      ],
+      &#34;markers&#34;: [
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;756569a7-9191-4c3a-8328-d7889070c13d&#34;,
+            &#34;start_lat&#34;: 18.551283,
+            &#34;start_lng&#34;: 73.790847,
+            &#34;end_lat&#34;: 18.551283,
+            &#34;end_lng&#34;: 73.790847,
+            &#34;caller&#34;: &#34;AD-AXISBK-S&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;0&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T05:51:09Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T05:51:09Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;SMS&#34;
+          },
+          &#34;index&#34;: 0,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.551283,
+            73.790847
+          ],
+          &#34;isActive&#34;: true
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;2a075824-3138-454f-8cee-f049d8197718&#34;,
+            &#34;start_lat&#34;: 18.551283,
+            &#34;start_lng&#34;: 73.790847,
+            &#34;end_lat&#34;: 18.551283,
+            &#34;end_lng&#34;: 73.790847,
+            &#34;caller&#34;: &#34;AD-AXISBK-S&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;0&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T05:51:09Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T05:51:09Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;SMS&#34;
+          },
+          &#34;index&#34;: 1,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.551283,
+            73.790847
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;b5cbd66c-4553-4c49-a601-be05ae442116&#34;,
+            &#34;start_lat&#34;: 18.551283,
+            &#34;start_lng&#34;: 73.790847,
+            &#34;end_lat&#34;: 18.551283,
+            &#34;end_lng&#34;: 73.790847,
+            &#34;caller&#34;: &#34;9850841831&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;0&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T08:53:13Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T08:53:13Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;SMS&#34;
+          },
+          &#34;index&#34;: 8,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.551283,
+            73.790847
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;705fe11b-0646-475c-81af-af1087cb351b&#34;,
+            &#34;start_lat&#34;: 18.551283,
+            &#34;start_lng&#34;: 73.790847,
+            &#34;end_lat&#34;: 18.551283,
+            &#34;end_lng&#34;: 73.790847,
+            &#34;caller&#34;: &#34;TG-SWIG-VM&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;0&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T09:53:13Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T09:53:13Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;SMS&#34;
+          },
+          &#34;index&#34;: 9,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.551283,
+            73.790847
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;d2dbf5fd-5ae7-4a0e-b354-04b75110bbeb&#34;,
+            &#34;start_lat&#34;: 18.551283,
+            &#34;start_lng&#34;: 73.790847,
+            &#34;end_lat&#34;: 18.551283,
+            &#34;end_lng&#34;: 73.790847,
+            &#34;caller&#34;: &#34;VM-IndiGo-S&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;0&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T12:51:09Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T12:51:09Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;SMS&#34;
+          },
+          &#34;index&#34;: 10,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.551283,
+            73.790847
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;1e2318ca-80df-4130-8e83-f8ca889697ec&#34;,
+            &#34;start_lat&#34;: 18.551283,
+            &#34;start_lng&#34;: 73.790847,
+            &#34;end_lat&#34;: 18.551283,
+            &#34;end_lng&#34;: 73.790847,
+            &#34;caller&#34;: &#34;AD-AXISBK-S&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;0&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-09T04:51:09Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-09T04:51:09Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;SMS&#34;
+          },
+          &#34;index&#34;: 11,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.551283,
+            73.790847
+          ],
+          &#34;isActive&#34;: false
+        }
+      ],
+      &#34;count&#34;: 6
+    },
+    {
+      &#34;position&#34;: [
+        18.564164,
+        73.807086
+      ],
+      &#34;markers&#34;: [
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;,
+            &#34;start_lat&#34;: 18.564164,
+            &#34;start_lng&#34;: 73.807086,
+            &#34;end_lat&#34;: 18.564164,
+            &#34;end_lng&#34;: 73.807086,
+            &#34;caller&#34;: &#34;9869803646&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;2136&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T06:39:14Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:14:50Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 2,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.564164,
+            73.807086
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;c569eb22-d4ec-48b6-8e8a-83f658f0287b&#34;,
+            &#34;start_lat&#34;: 18.564164,
+            &#34;start_lng&#34;: 73.807086,
+            &#34;end_lat&#34;: 18.564164,
+            &#34;end_lng&#34;: 73.807086,
+            &#34;caller&#34;: &#34;9869803646&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;2136&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T06:39:14Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:14:50Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 2,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.564164,
+            73.807086
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803642&#34;,
+            &#34;duration&#34;: &#34;251&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:15:07Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:19:18Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 5,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;73c3fd2a-a7b8-4fd1-8d19-7ad4acc1c0c8&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803642&#34;,
+            &#34;duration&#34;: &#34;251&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:15:07Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:19:18Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 5,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;14ac15ce-5ea3-4710-bf28-b9388870d98a&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9869803642&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;161&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:17:40Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:20:21Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 6,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;14ac15ce-5ea3-4710-bf28-b9388870d98a&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9869803642&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;161&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:17:40Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:20:21Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 6,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;353b230c-cd7a-4c91-9d1c-c47ef81e4999&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9869803642&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;90&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:18:32Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:20:02Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 7,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;353b230c-cd7a-4c91-9d1c-c47ef81e4999&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9869803642&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;90&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:18:32Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:20:02Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 7,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803642&#34;,
+            &#34;duration&#34;: &#34;140&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-20T05:53:07Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-20T05:55:27Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 12,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;169af318-06b4-4c7b-a1ec-ba77545d3b3c&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803642&#34;,
+            &#34;duration&#34;: &#34;140&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-20T05:53:07Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-20T05:55:27Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 12,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;3a94f45d-1bf9-493d-a051-cb9fb0a62e20&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9869803640&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;108&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-21T12:51:55Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-21T12:53:43Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 13,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;3a94f45d-1bf9-493d-a051-cb9fb0a62e20&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9869803640&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;108&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-21T12:51:55Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-21T12:53:43Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 13,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;a30a6c05-836f-48e6-b2bc-afe2ab6270b9&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803642&#34;,
+            &#34;duration&#34;: &#34;109&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-22T01:39:29Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-22T01:41:18Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 14,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;a30a6c05-836f-48e6-b2bc-afe2ab6270b9&#34;,
+            &#34;start_lat&#34;: 18.564154,
+            &#34;start_lng&#34;: 73.807065,
+            &#34;end_lat&#34;: 18.564154,
+            &#34;end_lng&#34;: 73.807065,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803642&#34;,
+            &#34;duration&#34;: &#34;109&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-22T01:39:29Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-22T01:41:18Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 14,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.564154,
+            73.807065
+          ],
+          &#34;isActive&#34;: false
+        }
+      ],
+      &#34;count&#34;: 14
+    },
+    {
+      &#34;position&#34;: [
+        18.555808,
+        73.794663
+      ],
+      &#34;markers&#34;: [
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8&#34;,
+            &#34;start_lat&#34;: 18.555808,
+            &#34;start_lng&#34;: 73.794663,
+            &#34;end_lat&#34;: 18.555808,
+            &#34;end_lng&#34;: 73.794663,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803646&#34;,
+            &#34;duration&#34;: &#34;52&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:10:41Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:11:33Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 3,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.555808,
+            73.794663
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;0412e6f4-5d8d-4ead-9837-d6b9a2b70bf8&#34;,
+            &#34;start_lat&#34;: 18.555808,
+            &#34;start_lng&#34;: 73.794663,
+            &#34;end_lat&#34;: 18.555808,
+            &#34;end_lng&#34;: 73.794663,
+            &#34;caller&#34;: &#34;9960820205&#34;,
+            &#34;callee&#34;: &#34;9869803646&#34;,
+            &#34;duration&#34;: &#34;52&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:10:41Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:11:33Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 3,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.555808,
+            73.794663
+          ],
+          &#34;isActive&#34;: false
+        }
+      ],
+      &#34;count&#34;: 2
+    },
+    {
+      &#34;position&#34;: [
+        18.527008,
+        73.743563
+      ],
+      &#34;markers&#34;: [
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;ceb20bb2-2771-4cd2-aeb3-95b9cc1739af&#34;,
+            &#34;start_lat&#34;: 18.527008,
+            &#34;start_lng&#34;: 73.743563,
+            &#34;end_lat&#34;: 18.527008,
+            &#34;end_lng&#34;: 73.743563,
+            &#34;caller&#34;: &#34;9869803647&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;44&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:13:56Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:14:40Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 4,
+          &#34;isStart&#34;: true,
+          &#34;position&#34;: [
+            18.527008,
+            73.743563
+          ],
+          &#34;isActive&#34;: false
+        },
+        {
+          &#34;record&#34;: {
+            &#34;callUID&#34;: &#34;ceb20bb2-2771-4cd2-aeb3-95b9cc1739af&#34;,
+            &#34;start_lat&#34;: 18.527008,
+            &#34;start_lng&#34;: 73.743563,
+            &#34;end_lat&#34;: 18.527008,
+            &#34;end_lng&#34;: 73.743563,
+            &#34;caller&#34;: &#34;9869803647&#34;,
+            &#34;callee&#34;: &#34;9960820205&#34;,
+            &#34;duration&#34;: &#34;44&#34;,
+            &#34;startTimestamp&#34;: &#34;2025-10-08T07:13:56Z&#34;,
+            &#34;endTimestamp&#34;: &#34;2025-10-08T07:14:40Z&#34;,
+            &#34;direction&#34;: &#34;outgoing&#34;,
+            &#34;sourceType&#34;: &#34;Call&#34;
+          },
+          &#34;index&#34;: 4,
+          &#34;isStart&#34;: false,
+          &#34;position&#34;: [
+            18.527008,
+            73.743563
+          ],
+          &#34;isActive&#34;: false
+        }
+      ],
+      &#34;count&#34;: 2
+    }
+  ]
+}
+    </div>
+
+    <div class="footer">
+      Full backend payload embedded for audit. Any change in JSON automatically appears in this report.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/calls-export/route": "/api/calls-export",
+  "/api/enqueue-pdf/route": "/api/enqueue-pdf",
+  "/api/pdf-data/route": "/api/pdf-data",
+  "/api/pdf/route": "/api/pdf",
+  "/api/report/[id]/download/route": "/api/report/[id]/download",
+  "/api/report/[id]/route": "/api/report/[id]",
+  "/api/report/[id]/status/route": "/api/report/[id]/status",
+  "/api/report/route": "/api/report",
+  "/page": "/",
+  "/report-test/page": "/report-test"
+}

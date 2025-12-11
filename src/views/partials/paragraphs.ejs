@@ -1,0 +1,8 @@
+<% if (paragraphs && paragraphs.length) { %>
+  <div class="section">
+    <div class="section-title">Summary</div>
+    <% paragraphs.forEach(function(p) { %>
+      <p class="paragraph"><%= p %></p>
+    <% }); %>
+  </div>
+<% } %>

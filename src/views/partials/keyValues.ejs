@@ -1,0 +1,15 @@
+<% if (keyValues && Object.keys(keyValues).length) { %>
+  <div class="section">
+    <div class="section-title">Metadata</div>
+    <table class="kv-table">
+      <tbody>
+        <% Object.keys(keyValues).forEach(function(key) { %>
+          <tr>
+            <th class="kv-key"><%= key %></th>
+            <td class="kv-value"><%= keyValues[key] %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+<% } %>

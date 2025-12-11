@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Intelligence Report - Akhmal (9960820205)</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f5;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+    }
+    .header {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    .header h1 {
+      color: #1e40af;
+      font-size: 26px;
+      margin-bottom: 4px;
+    }
+    .header p {
+      color: #666;
+      font-size: 12px;
+    }
+    .section-title {
+      background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+      color: white;
+      padding: 12px 16px;
+      margin: 30px 0 15px 0;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .info-box {
+      background: #f0f4ff;
+      border-left: 3px solid #2563eb;
+      padding: 10px;
+      border-radius: 3px;
+    }
+    .info-label {
+      font-size: 11px;
+      color: #666;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .info-value {
+      font-size: 13px;
+      color: #1e40af;
+      font-weight: 500;
+      word-break: break-word;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .stat-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 4px;
+      padding: 12px;
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 20px;
+      font-weight: bold;
+      color: #1e40af;
+    }
+    .stat-label {
+      font-size: 11px;
+      color: #666;
+      margin-top: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+      font-size: 11px;
+    }
+    table thead {
+      background: #1e40af;
+      color: white;
+    }
+    table th {
+      padding: 8px;
+      text-align: left;
+      font-weight: 600;
+    }
+    table td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    table tbody tr:nth-child(odd) {
+      background: #f9fafb;
+    }
+    .priority-high { color: #dc2626; font-weight: bold; }
+    .priority-medium { color: #ea580c; }
+    .priority-low { color: #16a34a; }
+    .summary-box {
+      background: #f0f4ff;
+      border-left: 3px solid #2563eb;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .summary-title {
+      font-weight: 600;
+      color: #1e40af;
+      margin-bottom: 4px;
+    }
+    .entity-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    .entity-badge {
+      background: #e0e7ff;
+      color: #1e40af;
+      padding: 6px;
+      border-radius: 3px;
+      font-size: 11px;
+      border-left: 2px solid #2563eb;
+    }
+    .keyword-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+      padding: 6px 0;
+      border-bottom: 1px solid #e5e7eb;
+      font-size: 11px;
+    }
+    .page-break { page-break-after: always; margin-bottom: 30px; }
+    .footer {
+      margin-top: 40px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 10px;
+      text-align: center;
+      font-size: 10px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <div class="header">
+      <h1>Intelligence Report - Akhmal (9960820205)</h1>
+      <p>Generated at: 5/12/2025, 11:05:36 am</p>
+    </div>
+
+    <!-- TARGET INFO -->
+    <div class="section-title">📋 TARGET INFORMATION</div>
+    <div class="info-grid">
+      <div class="info-box">
+        <div class="info-label">TARGET CODE</div>
+        <div class="info-value">TGT9960820205</div>
+      </div>
+      <div class="info-box">
+        <div class="info-label">PHONE NUMBER</div>
+        <div class="info-value">9960820205</div>
+      </div>
+      <div class="info-box">
+        <div class="info-label">FULL NAME</div>
+        <div class="info-value">Akhmal</div>
+      </div>
+      <div class="info-box">
+        <div class="info-label">ALIASES</div>
+        <div class="info-value">Bhai</div>
+      </div>
+      <div class="info-box">
+        <div class="info-label">CATEGORIES</div>
+        <div class="info-value">Recruitment, Narcotics</div>
+      </div>
+      <div class="info-box">
+        <div class="info-label">STATUS</div>
+        <div class="info-value">🔴 ACTIVE</div>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="section-title">📊 QUICK STATISTICS</div>
+    <div class="stats-grid">
+      <div class="stat-box">
+        <div class="stat-number">9</div>
+        <div class="stat-label">Total Calls</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Total SMS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">15</div>
+        <div class="stat-label">Files</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">8</div>
+        <div class="stat-label">High Priority</div>
+      </div>
+    </div>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- CALL RECORDS (DETAILED) -->
+    <div class="section-title">
+      📞 CALL RECORDS (9 Total)
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>DateTime</th>
+          <th>Duration</th>
+          <th>Caller</th>
+          <th>Callee</th>
+          <th>Type</th>
+          <th>Category</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Language</th>
+          <th>Location</th>
+          <th>File</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr>
+            <td>1</td>
+            <td>8/10/2025, 12:40:41 pm</td>
+            <td>N/A</td>
+            <td>9960820205</td>
+            <td>9869803646</td>
+            <td>OUTGOING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.555808, 73.794663</td>
+            <td>08102025-124041.27203701.wav</td>
+          </tr>
+        
+          <tr>
+            <td>2</td>
+            <td>8/10/2025, 12:47:40 pm</td>
+            <td>N/A</td>
+            <td>9869803642</td>
+            <td>9960820205</td>
+            <td>INCOMING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.564154, 73.807065</td>
+            <td>08102025-124740.27215606.wav</td>
+          </tr>
+        
+          <tr>
+            <td>3</td>
+            <td>20/10/2025, 11:23:07 am</td>
+            <td>N/A</td>
+            <td>9960820205</td>
+            <td>9869803642</td>
+            <td>OUTGOING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.564154, 73.807065</td>
+            <td>112788721-11-301944-3-17-20250622-112307.wav</td>
+          </tr>
+        
+          <tr>
+            <td>4</td>
+            <td>8/10/2025, 12:48:32 pm</td>
+            <td>N/A</td>
+            <td>9869803642</td>
+            <td>9960820205</td>
+            <td>INCOMING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.564154, 73.807065</td>
+            <td>08102025-124832.27219915.wav</td>
+          </tr>
+        
+          <tr>
+            <td>5</td>
+            <td>21/10/2025, 6:21:55 pm</td>
+            <td>N/A</td>
+            <td>9869803640</td>
+            <td>9960820205</td>
+            <td>INCOMING</td>
+            <td></td>
+            <td class="priority-medium">MEDIUM</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.564154, 73.807065</td>
+            <td>112824163-11-301944-3-11-20250622-182155.wav</td>
+          </tr>
+        
+          <tr>
+            <td>6</td>
+            <td>8/10/2025, 12:45:07 pm</td>
+            <td>N/A</td>
+            <td>9960820205</td>
+            <td>9869803642</td>
+            <td>OUTGOING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.564154, 73.807065</td>
+            <td>08102025-124507.27211159.wav</td>
+          </tr>
+        
+          <tr>
+            <td>7</td>
+            <td>22/10/2025, 7:09:29 am</td>
+            <td>N/A</td>
+            <td>9960820205</td>
+            <td>9869803642</td>
+            <td>OUTGOING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.564154, 73.807065</td>
+            <td>112863950-11-301944-0-27-20250623-070929.wav</td>
+          </tr>
+        
+          <tr>
+            <td>8</td>
+            <td>8/10/2025, 12:09:14 pm</td>
+            <td>N/A</td>
+            <td>9869803646</td>
+            <td>9960820205</td>
+            <td>INCOMING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.564164, 73.807086</td>
+            <td>08102025-120914.27152060.wav</td>
+          </tr>
+        
+          <tr>
+            <td>9</td>
+            <td>8/10/2025, 12:43:56 pm</td>
+            <td>N/A</td>
+            <td>9869803647</td>
+            <td>9960820205</td>
+            <td>INCOMING</td>
+            <td></td>
+            <td class="priority-high">HIGH</td>
+            <td>✓ Read</td>
+            <td>Hindi</td>
+            <td>18.527008, 73.743563</td>
+            <td>08102025-124356.27209145.wav</td>
+          </tr>
+        
+      </tbody>
+    </table>
+
+    <!-- SMS RECORDS (DETAILED) -->
+    <div class="section-title">
+      💬 SMS RECORDS (6 Total)
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>DateTime</th>
+          <th>From</th>
+          <th>Type</th>
+          <th>Category</th>
+          <th>Priority</th>
+          <th>Message (preview)</th>
+          <th>Status</th>
+          <th>File</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr>
+            <td>1</td>
+            <td>9/10/2025, 10:21:09 am</td>
+            <td>AD-AXISBK-S</td>
+            <td>FINANCIAL</td>
+            <td>[object Object]</td>
+            <td class="priority-low">LOW</td>
+            <td>INR 232.00 debited A/c no. XX7879
+04-10-25, 15:13:22
+UPI/P2A/527717520574/Mr SUNIL BABUSHA KA
+Not</td>
+            <td>✓ Read</td>
+            <td>114259644.txt</td>
+          </tr>
+        
+          <tr>
+            <td>2</td>
+            <td>8/10/2025, 11:21:09 am</td>
+            <td>AD-AXISBK-S</td>
+            <td>FINANCIAL</td>
+            <td>[object Object]</td>
+            <td class="priority-high">HIGH</td>
+            <td>Transaction Confirmation Alert: Your SIP Purchase of Rs.4,999.75 in Small Cap Fund - Reg - G (Folio </td>
+            <td>✓ Read</td>
+            <td>114259646.txt</td>
+          </tr>
+        
+          <tr>
+            <td>3</td>
+            <td>8/10/2025, 3:23:13 pm</td>
+            <td>TG-SWIG-VM</td>
+            <td>BUSINESS</td>
+            <td>[object Object]</td>
+            <td class="priority-high">HIGH</td>
+            <td>Your Swiggy order#214820414675203 is confirmed. Complete payment here https://www.swiggy.com/track-o</td>
+            <td>✓ Read</td>
+            <td>114259642.txt</td>
+          </tr>
+        
+          <tr>
+            <td>4</td>
+            <td>8/10/2025, 11:21:09 am</td>
+            <td>AD-AXISBK-S</td>
+            <td>FINANCIAL</td>
+            <td>[object Object]</td>
+            <td class="priority-high">HIGH</td>
+            <td>Transaction Confirmation Alert: Your SIP Purchase of Rs.4,999.75 in Small Cap Fund - Reg - G (Folio </td>
+            <td>✓ Read</td>
+            <td>114259645.txt</td>
+          </tr>
+        
+          <tr>
+            <td>5</td>
+            <td>8/10/2025, 2:23:13 pm</td>
+            <td>9850841831</td>
+            <td>PERSONAL</td>
+            <td>[object Object]</td>
+            <td class="priority-low">LOW</td>
+            <td>Sure. This month I am running short on funds. Laddu and Chai ki dawaat will be on you!</td>
+            <td>✓ Read</td>
+            <td>114259641.txt</td>
+          </tr>
+        
+          <tr>
+            <td>6</td>
+            <td>8/10/2025, 6:21:09 pm</td>
+            <td>VM-IndiGo-S</td>
+            <td>TRAVEL</td>
+            <td>[object Object]</td>
+            <td class="priority-high">HIGH</td>
+            <td>IndiGo: Dear IndiGo Customer, flight 6473 from PNQ  shall be boarding from gate 7. Boarding gate clo</td>
+            <td>✓ Read</td>
+            <td>114259643.txt</td>
+          </tr>
+        
+      </tbody>
+    </table>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- TOP CALL SUMMARIES -->
+    <div class="section-title">🎯 TOP CALL SUMMARIES</div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #1 | 8/10/2025, 12:40:41 pm
+        </div>
+        <strong>From:</strong> 9960820205 →
+        <strong>To:</strong> 9869803646 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> The call discusses a security concern regarding agencies exploiting individuals, particularly young people, through online surveys offered in the guise of social media companies. These agencies collect personal information like pictures and location data, potentially using it against the country and its cities. The call also questions the legitimacy and potential harm caused by these agencies&#39; charges and activities, highlighting a failure to connect and respond via the caller&#39;s number. The mention of &#39;Khan&#39; and &#39;Holi&#39; appears contextually unrelated and likely represents misinterpreted speech-to-text.
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #2 | 8/10/2025, 12:47:40 pm
+        </div>
+        <strong>From:</strong> 9869803642 →
+        <strong>To:</strong> 9960820205 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> The call centers around a warning about enemy intelligence agencies recruiting youth online – particularly through platforms using the name &#39;Kangla&#39; – to gather sensitive information regarding national plans and infrastructure. The warning emphasizes this activity is a threat to national security and citizens. The remainder of the call consists of disjointed, seemingly unrelated personal conversation regarding travel to Ranchi (specifically, Kapil Store), bicycle repairs, and work schedules, indicating a possible interruption or shift in focus after the initial warning.
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #3 | 20/10/2025, 11:23:07 am
+        </div>
+        <strong>From:</strong> 9960820205 →
+        <strong>To:</strong> 9869803642 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> [object Object]<br/>
+        <strong>Summary:</strong> This call revolves around coordinating a meeting with several individuals, including &#39;Mujur,&#39; &#39;Sahab,&#39; &#39;Taiyu sir,&#39; and &#39;Alam.&#39; The initial discussion touches on someone being scammed while trying to quickly double their money. The core of the conversation focuses on logistics – arranging a series of visits, starting with someone at a nursing home (&#39;they were scared and came to the nursing home&#39;) and then moving to locations like &#39;the mill&#39; and a teacher&#39;s location near &#39;Karbala shop.&#39; Lunch is planned around 11:30 AM, preceded by breakfast at 9:00 AM. 
+
+The group plans to meet near &#39;uncle&#39;s fertilizer&#39; within five minutes, with &#39;Shab&#39; currently near &#39;Rins.&#39; Practical concerns like helmets are addressed, confirming everything needed is readily available. The call establishes a plan for multiple meetings and site visits within the day.
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #4 | 8/10/2025, 12:48:32 pm
+        </div>
+        <strong>From:</strong> 9869803642 →
+        <strong>To:</strong> 9960820205 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> This call involves coordinating a meeting or visit, potentially involving &#34;SP Shiv&#34; and someone referred to as &#34;eighteen sir.&#34; The speakers are attempting to locate &#34;eighteen sir&#34; and determine his current whereabouts, noting he was recently at Khar Morada and had something installed &#34;above&#34; yesterday, possibly related to his &#34;in-law&#39;s circle.&#34; There&#39;s a request for &#34;two from HPCC&#34; which are expected to arrive. The conversation also touches upon difficulties in tracking his location and a preference for conducting activities &#34;at our home.&#34;
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #5 | 21/10/2025, 6:21:55 pm
+        </div>
+        <strong>From:</strong> 9869803640 →
+        <strong>To:</strong> 9960820205 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-medium">
+          MEDIUM
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> This call centers around resolving issues related to a broken phone and ensuring a child&#39;s education isn&#39;t disrupted. The speaker requests someone turn a car around and deliver it from &#39;the other side,&#39; offering to cover any extra costs to demonstrate responsibility to the child’s parents. A significant point of contention is delayed funding – potentially impacting the education of 1525 children – with the speaker accusing the other party of deflecting responsibility and wasting time. 
+
+The conversation also touches upon weather conditions (heavy rain in the speaker’s location, potentially in Ranchi), and a request to be reminded about a fee and ensure the child is properly seated (likely in a class). The speaker concludes by asking for a religious invocation (&#39;Dismilllah&#39;) for success tomorrow.
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #6 | 8/10/2025, 12:45:07 pm
+        </div>
+        <strong>From:</strong> 9960820205 →
+        <strong>To:</strong> 9869803642 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> This conversation centers around recent intelligence regarding &#39;Mui,&#39; who, along with associated agencies, is recruiting young people through online job scams on social media. The discussion then shifts to logistical details and personal matters. Individuals named Usman and &#39;Dada&#39; visited Amarpur, and there&#39;s mention of a car and an unrecognized phone number. A lost wallet containing cash and a card was reported, with reluctance to file a police report due to perceived inaction. There is also talk of a local head of the locality traveling and preparations being made for visitors, including decorations and refreshments. A request from &#39;Marwari&#39; for a letter is mentioned, prompting a need to consult with a husband. Finally, there is discussion of a 700 rupee discount and greetings being exchanged.
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #7 | 22/10/2025, 7:09:29 am
+        </div>
+        <strong>From:</strong> 9960820205 →
+        <strong>To:</strong> 9869803642 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> This call revolves around confirming someone&#39;s attendance and addressing concerns about their health and work performance. The individual was previously instructed to call before coming to school/work, and there was confusion regarding whether or not they were coming. Despite initial hesitancy and claims of illness, the individual ultimately confirms they are coming and will be ready within ten minutes. A significant portion of the conversation focuses on the individual&#39;s tendency to make excuses and their perceived need for support (&#39;two people with them&#39;) which is viewed negatively. There&#39;s mention of a prior report regarding measurements taken, and a directive to inform Sanial Ma&#39;am. The caller emphasizes their willingness to work with the individual but expresses frustration with their behavior and excuses.
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #8 | 8/10/2025, 12:09:14 pm
+        </div>
+        <strong>From:</strong> 9869803646 →
+        <strong>To:</strong> 9960820205 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> This lengthy call is a fragmented and rambling conversation among family members, touching upon a wide array of personal concerns, daily life updates, and anxieties. Health is a central theme, with discussions about a grandfather’s fever potentially requiring hospitalization, Jasi and Chearia’s recoveries, concerns about a possible malaria outbreak, and the ailing health of an unnamed individual experiencing digestive issues and reluctance to take medication – raising worries serious enough to mention a ‘post-mortem’ in passing. Numerous family members are referenced (Salma, Shahid, Sadia, Laasha’s mother, Ali, Sasha, Jafar, and ‘Dubai people’), along with updates on their well-being and activities. Alongside health, there&#39;s significant discussion regarding a pending wedding, its associated financial burdens (and a mother&#39;s reluctance to contribute), and anxieties about it proceeding correctly.
+
+Beyond immediate family matters, the conversation veers into financial struggles, land acquisition issues (&#39;Igalo plot&#39;, fluctuating prices), and work-related difficulties. Numan’s recent job transition after eight months is discussed, as is Nasir uncle’s retirement and pension. Speakers express frustration with bureaucratic processes involving &#39;papers&#39; and a perceived lack of progress over a two-year period. Everyday occurrences are interspersed throughout – meal preparation (noodles, macaroni, mughlai cuisine), minor household tasks (dirty stove, bike repair), recent visits (Niccola, Panchi, Salma, Maami’s trip to Kashmir), and inquiries about local events. A sense of unease permeates the discussion, linked to potential criminal activity at a school and concerns about &#39;Corona&#39;.
+
+Throughout the call, participants offer advice, share updates, and express religious sentiments (‘Alhamdulillah,’ prayers) regarding hope for recovery and favorable outcomes. The discussion is characterized by frequent interruptions, shifts in subject matter, and a general feeling of things &#39;not working out,&#39; illustrating a complex web of family dynamics, differing opinions, and persistent challenges. Requests for assistance, such as inquiries about fertilizer and deliveries, are woven into the broader tapestry of anxieties and everyday routines, resulting in a comprehensive yet disjointed portrayal of family life.
+      </div>
+    
+      <div class="summary-box">
+        <div class="summary-title">
+          Call #9 | 8/10/2025, 12:43:56 pm
+        </div>
+        <strong>From:</strong> 9869803647 →
+        <strong>To:</strong> 9960820205 |
+        <strong>Duration:</strong> N/A |
+        <strong>Priority:</strong>
+        <span class="priority-high">
+          HIGH
+        </span><br/>
+        <strong>Category:</strong> <br/>
+        <strong>Speakers:</strong> Unknown (), Unknown ()<br/>
+        <strong>Comments:</strong> N/A<br/>
+        <strong>Summary:</strong> This communication appears to be instructions given during a potentially chaotic situation, likely involving a group of people. Individuals are being directed to move aside, specifically those connected to &#39;Luvy&#39;s abuses&#39; and those from &#39;the excavation town&#39;. A numerical value, &#39;Three thousand six hundred and fifteen&#39;, is mentioned alongside the phrase &#39;today&#39;s black&#39;, possibly referencing a code, identifier, or a negative event occurring on that day. The initial phrases suggest a possible attempt to contact an agency and a question about tardiness.
+      </div>
+    
+
+    <!-- ENTITIES -->
+    <div class="section-title">🔍 ENTITIES EXTRACTED</div>
+
+    <strong style="display: block; margin: 10px 0 8px; color: #1e40af; font-size: 12px;">📌 Persons</strong>
+    <div class="entity-list">
+      
+        <div class="entity-badge">Khan</div>
+      
+        <div class="entity-badge">Kangla</div>
+      
+        <div class="entity-badge">Alam</div>
+      
+        <div class="entity-badge">Mujur</div>
+      
+        <div class="entity-badge">Rins</div>
+      
+        <div class="entity-badge">Sahab</div>
+      
+        <div class="entity-badge">Shab</div>
+      
+        <div class="entity-badge">Taiyu</div>
+      
+        <div class="entity-badge">SP Shiv</div>
+      
+        <div class="entity-badge">Marwari</div>
+      
+        <div class="entity-badge">Mui</div>
+      
+        <div class="entity-badge">Usman</div>
+      
+        <div class="entity-badge">Mahfuz Sahab</div>
+      
+        <div class="entity-badge">Sanial Ma&#39;am</div>
+      
+        <div class="entity-badge">Salman</div>
+      
+        <div class="entity-badge">Suaa</div>
+      
+        <div class="entity-badge">Allah</div>
+      
+        <div class="entity-badge">Asad</div>
+      
+        <div class="entity-badge">Maria</div>
+      
+        <div class="entity-badge">Salma Dani</div>
+      
+    </div>
+
+    <strong style="display: block; margin: 15px 0 8px; color: #1e40af; font-size: 12px;">📍 Locations</strong>
+    <div class="entity-list">
+      
+        <div class="entity-badge">shaharon</div>
+      
+        <div class="entity-badge">Ranchi</div>
+      
+        <div class="entity-badge">Fasaad</div>
+      
+        <div class="entity-badge">Karbala</div>
+      
+        <div class="entity-badge">Khar Morada</div>
+      
+        <div class="entity-badge">Sissner</div>
+      
+        <div class="entity-badge">Amarpur</div>
+      
+        <div class="entity-badge">Nadahal</div>
+      
+        <div class="entity-badge">Badahal</div>
+      
+        <div class="entity-badge">Dubai</div>
+      
+        <div class="entity-badge">Kalawa</div>
+      
+    </div>
+
+    <strong style="display: block; margin: 15px 0 8px; color: #1e40af; font-size: 12px;">🏢 Organizations</strong>
+    <div class="entity-list">
+      
+        <div class="entity-badge">social media platform companies</div>
+      
+        <div class="entity-badge">army</div>
+      
+        <div class="entity-badge">Kapil Store</div>
+      
+        <div class="entity-badge">HPCC</div>
+      
+        <div class="entity-badge">Agency</div>
+      
+    </div>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- KEYWORDS -->
+    <div class="section-title">🔑 KEYWORDS ANALYSIS</div>
+
+    <strong style="display: block; margin: 10px 0 8px; color: #1e40af; font-size: 12px;">Target Keywords</strong>
+    <table>
+      <thead>
+        <tr><th>Keyword</th><th>Label</th><th>Call Count</th><th>SMS Count</th><th>Total</th></tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+
+    <strong style="display: block; margin: 15px 0 8px; color: #1e40af; font-size: 12px;">Global Keywords</strong>
+    <table>
+      <thead>
+        <tr><th>Keyword</th><th>Label</th><th>Call Count</th><th>SMS Count</th><th>Total</th></tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>Confidential Intelligence Report - Unauthorized Distribution Prohibited</p>
+      <p>Full structured data mapping | All JSON fields properly extracted and rendered</p>
+    </div>
+  </div>
+</body>
+</html>

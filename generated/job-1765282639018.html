@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Intelligence Report</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f5;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+    }
+    .header {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    .header h1 {
+      color: #1e40af;
+      font-size: 26px;
+      margin-bottom: 4px;
+    }
+    .header p {
+      color: #666;
+      font-size: 12px;
+    }
+    .section-title {
+      background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+      color: white;
+      padding: 12px 16px;
+      margin: 30px 0 15px 0;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .info-box {
+      background: #f0f4ff;
+      border-left: 3px solid #2563eb;
+      padding: 10px;
+      border-radius: 3px;
+    }
+    .info-label {
+      font-size: 11px;
+      color: #666;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .info-value {
+      font-size: 13px;
+      color: #1e40af;
+      font-weight: 500;
+      word-break: break-word;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .stat-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 4px;
+      padding: 12px;
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 20px;
+      font-weight: bold;
+      color: #1e40af;
+    }
+    .stat-label {
+      font-size: 11px;
+      color: #666;
+      margin-top: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+      font-size: 11px;
+    }
+    table thead {
+      background: #1e40af;
+      color: white;
+    }
+    table th {
+      padding: 8px;
+      text-align: left;
+      font-weight: 600;
+    }
+    table td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    table tbody tr:nth-child(odd) {
+      background: #f9fafb;
+    }
+    .summary-box {
+      background: #f0f4ff;
+      border-left: 3px solid #2563eb;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .summary-title {
+      font-weight: 600;
+      color: #1e40af;
+      margin-bottom: 4px;
+    }
+    .entity-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    .entity-badge {
+      background: #e0e7ff;
+      color: #1e40af;
+      padding: 6px;
+      border-radius: 3px;
+      font-size: 11px;
+      border-left: 2px solid #2563eb;
+    }
+    .page-break { page-break-after: always; margin-bottom: 30px; }
+    .footer {
+      margin-top: 40px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 10px;
+      text-align: center;
+      font-size: 10px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+
+    
+      <!-- ========== SUMMARY REPORT (only once) ========== -->
+      <div class="header">
+        <h1></h1>
+        <p>Generated at: 9/12/2025, 5:47:31 pm</p>
+      </div>
+
+      <!-- TARGET INFO -->
+      <div class="section-title">📋 TARGET INFORMATION</div>
+      <div class="info-grid">
+        
+        <div class="info-box"><div class="info-label">TARGET CODE</div><div class="info-value">-</div></div>
+        <div class="info-box"><div class="info-label">PHONE NUMBER</div><div class="info-value">-</div></div>
+        <div class="info-box"><div class="info-label">FULL NAME</div><div class="info-value">-</div></div>
+        <div class="info-box"><div class="info-label">ALIASES</div><div class="info-value">-</div></div>
+        <div class="info-box"><div class="info-label">CATEGORIES</div><div class="info-value">-</div></div>
+        <div class="info-box"><div class="info-label">STATUS</div><div class="info-value">-</div></div>
+      </div>
+
+      <!-- STATS -->
+      <div class="section-title">📊 QUICK STATISTICS</div>
+      <div class="stats-grid">
+        <div class="stat-box"><div class="stat-number">0</div><div class="stat-label">Total Calls</div></div>
+        <div class="stat-box"><div class="stat-number">0</div><div class="stat-label">Total SMS</div></div>
+        <div class="stat-box"><div class="stat-number">0</div><div class="stat-label">Files</div></div>
+        <div class="stat-box"><div class="stat-number">0</div><div class="stat-label">High Priority</div></div>
+      </div>
+
+      <div class="page-break"></div>
+
+      <!-- TOP CALL SUMMARIES -->
+      
+      <div class="section-title">🎯 TOP CALL SUMMARIES</div>
+      <p>No top call summaries available</p>
+
+      <!-- ENTITIES -->
+      
+      <div class="section-title">🔍 ENTITIES EXTRACTED</div>
+
+      <strong>Persons</strong>
+      <div class="entity-list">
+        
+      </div>
+
+      <strong style="margin-top:10px;display:block;">Locations</strong>
+      <div class="entity-list">
+        
+      </div>
+
+      <strong style="margin-top:10px;display:block;">Organizations</strong>
+      <div class="entity-list">
+        
+      </div>
+
+      <div class="page-break"></div>
+
+      <!-- KEYWORDS -->
+      
+      <div class="section-title">🔑 KEYWORDS ANALYSIS</div>
+
+      <strong>Target Keywords</strong>
+      <p>No target keywords</p>
+
+      <div class="footer">
+        <p>Confidential Intelligence Report — Unauthorized Distribution Prohibited</p>
+      </div>
+
+    
+  </div>
+</body>
+</html>
