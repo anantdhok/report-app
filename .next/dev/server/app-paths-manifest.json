@@ -1,7 +1,0 @@
-{
-  "/api/pdf-data/route": "app/api/pdf-data/route.js",
-  "/api/report/[id]/download/route": "app/api/report/[id]/download/route.js",
-  "/api/report/[id]/status/route": "app/api/report/[id]/status/route.js",
-  "/api/report/route": "app/api/report/route.js",
-  "/report-test/page": "app/report-test/page.js"
-}
