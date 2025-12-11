@@ -9,3 +9,7 @@ npm-debug.log
 /dist
 /build
 .vscode/
+.next/
+generated/
+report-app/.next/
+report-app/generated/
