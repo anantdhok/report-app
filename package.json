@@ -2,6 +2,7 @@
   "name": "report-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +11,7 @@
     "format": "prettier --write .",
     "worker:build": "tsc -p tsconfig.worker.json",
     "worker": "npm run worker:build && node dist/workers/pdfworker.js",
-    "worker:ts": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' src/workers/pdfworker.ts",
+    "worker:ts": "node --loader ts-node/esm src/workers/pdfworker.ts",
     "pdf:test": "ts-node src/scripts/generate-sample-pdf.ts",
     "enqueue:test": "node --loader ts-node/esm scripts/enqueue-test.ts"
   },
@@ -44,3 +45,5 @@
     "typescript": "^5"
   }
 }
+ 
+ 
