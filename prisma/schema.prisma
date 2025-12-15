@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ReportStatus {
+  queued
+  fetching_data
+  generating_structure
+  generating_chunks
+  merging_and_cleaning
+  completed
+  failed
+}
+
+model ReportJob {
+  id           String       @id @default(cuid())
+  targetId     String
+  status       ReportStatus @default(queued)
+  finalPdfPath String?      // local path or URL to merged PDF
+  chunkPaths   String?      // JSON array of chunk file paths (optional)
+  requestBy    String?      // user id / email (optional)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  completedAt  DateTime?
+  errorMessage String?
+
+  @@map("report_jobs")
+}
